@@ -60,7 +60,7 @@ export default function Footer10() {
                                     <div className="col-lg-4">
                                         <div className="contactcta5-form">
                                             <div className="contact6-ctafrom8">
-                                                <h1 className="font-20 font-lora weight-600 lineh-20 color39">Subscribe Our Newsletter</h1>
+                                                <h1 className="font-20 font-lora weight-600 lineh-20 color">Subscribe Our Newsletter</h1>
                                                 <form className="form7">
                                                     <input type="text" placeholder="Enter Your email" />
                                                     <div className="contact5-btn15">

@@ -10,6 +10,7 @@ import "/public/assets/css/plugins/mobile.css"
 import "/public/assets/css/plugins/aos.css"
 import "/public/assets/css/typography.css"
 import "/public/assets/css/master.css"
+import '/public/assets/css/manual.css'
 import "/public/assets/css/plugins/responsive.css"
 
 const nunito = Nunito({

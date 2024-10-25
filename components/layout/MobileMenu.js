@@ -25,7 +25,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                     <div className="col-12">
                         <div className="mobile-header-elements">
                             <div className="mobile-logo">
-                                <Link href="/index1"><img src="/assets/images/logo/logo7.png" alt="" /></Link>
+                                <Link href="/index1"><img src="/assets/images/logo/logo.png" alt="" /></Link>
                             </div>
                             <div className="mobile-nav-icon dots-menu" onClick={handleMobileMenu}>
                                 <i className="fa-solid fa-bars" />
@@ -37,7 +37,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
             <div className={`mobile-sidebar ${isMobileMenu ? "mobile-menu-active" : ""}`}>
                 <div className="logoicons-area">
                     <div className="logos">
-                        <img src="/assets/images/logo/logo7.png" alt="" />
+                        <img src="/assets/images/logo/logo.png" alt="" />
                     </div>
                     <div className="menu-close" onClick={handleMobileMenu}>
                         <i className="fa-solid fa-xmark" />

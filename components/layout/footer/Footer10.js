@@ -12,7 +12,7 @@ export default function Footer10() {
                                     <div className="col-lg-3">
                                         <div className="contact5-logo5-text1">
                                             <img src="/assets/images/logo/logo.png" alt="Ganit Tax Logo" />
-                                            <p className="font-ks font-16 weight-500 lineh-26 color32 margin-t margin-b24">
+                                            <p className="font-ks font-16 weight-500 lineh-26 color32 margin-t margin-b24 text-justify">
                                             Ganit Tax, Inc provides expert tax preparation and consulting services for individuals and businesses. We ensure you stay compliant and focused on your primary operations.
                                             </p>
                                             <div className="icon-social-links">
@@ -45,15 +45,19 @@ export default function Footer10() {
                                             <h1 className="font-20 color lineh-20 font-lora margin-b24 weight-600">Contact Us</h1>
                                             <div className="email4">
                                                 <img src="/assets/images/icons/email4.svg" alt="" />
-                                                <Link href="mailto:info@ganittax.com" className="font-16 lineh-24 color32 weight-400 font-ks">info@ganittax.com</Link>
+                                                <Link href="mailto:info@ganittax.com" className="font-16 lineh-24 color32 weight-400 font-ks">support@ganittax.com</Link>
                                             </div>
                                             <span className="location-fooetr ">
                                                 <img src="/assets/images/icons/location2.png" alt="" className="heightwidth" />
-                                                <Link href="#" className="font-16 font-ks lineh-26 weight-500 color32 margin-t">8708 Technology Forest <br /> Pl Suite 125 -G, The <br /> Woodlands, TX 77381</Link>
+                                                <Link href="#" className="font-16 font-ks lineh-26 weight-500 color32 margin-t"> Delaware: 8 The Green <br />
+                                                    Dover, DE 19901 <br />
+                                                    GA: 6065 Roswell Road, #450 <br />
+                                                    Atlanta, GA 30328-4011
+                                                </Link>
                                             </span>
                                             <div className="email4 margin-t">
                                                 <img src="/assets/images/icons/phone5.svg" alt="" />
-                                                <Link href="tel:123-456-7890" className="font-16 lineh-24 color32 weight-400 font-ks">123-456-7890</Link>
+                                                <Link href="tel:123-456-7890" className="font-16 lineh-24 color32 weight-400 font-ks">+1 (678) 648-6333</Link>
                                             </div>
                                         </div>
                                     </div>

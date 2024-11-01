@@ -8015,7 +8015,7 @@ img.qutiosvg {
 
 img.manimages10 {
   position: absolute;
-  left: 0;
+  left: 42%;
 }
 
 .mans-testimonial10 {
@@ -8031,8 +8031,7 @@ img.manimages10 {
   object-fit: contain;
 }
 .manimages10{
-  height: 64px
-  ;
+  height: 64px;
   width: 64px;
   object-fit: contain;
 }

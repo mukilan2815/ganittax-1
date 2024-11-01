@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Our Team">
+            <Layout headerStyle={10} footerStyle={10} breadcrumbTitle="Our Team">
                 <div>
                     <div className="team-innerpages-area section-padding8">
                         <div className="container">

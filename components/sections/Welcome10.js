@@ -9,7 +9,7 @@ export default function Welcome10() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
-                            <div className="header10-textarea" data-aos="zoom-out" data-aos-duration={1000}>
+                            <div className="header10-textarea" data-aos="zoom-out" data-aos-duration={500}>
                                 <span className="font-ks lineh-16 weight-500 color aboutspan font-16 d-inline-block margin-b24">Insurance
                                     Consulting Services</span>
                                 <h1 className="font-lora font-48 lineh-54 weight-600 color margin-b24" data-aos="fade-right" data-aos-duration={1000}>Proven Insurance Strategies Success</h1>
@@ -23,8 +23,8 @@ export default function Welcome10() {
                         </div>
                         <div className="col-lg-1" />
                         <div className="col-lg-5">
-                            <div className="welcome-bgarea" data-aos="zoom-in" data-aos-duration={1000}>
-                                <div className="welcome-ellips" data-aos="zoom-out" data-aos-duration={1200}>
+                            <div className="welcome-bgarea" data-aos="zoom-in" data-aos-duration={3000}>
+                                <div className="welcome-ellips" data-aos="zoom-out" data-aos-duration={3200}>
                                     <img src="/assets/images/background/homepagewelbg.png" alt="" className="homewelbg keyframe3" />
                                     <div className="elips-icon">
                                         <img src="/assets/images/icons/export4.svg" alt="" />

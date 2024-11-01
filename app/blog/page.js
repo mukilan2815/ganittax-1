@@ -4,7 +4,7 @@ import Layout from '@/components/layout/Layout'
 export default function Blog() {
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="title">
+            <Layout headerStyle={10} footerStyle={10} breadcrumbTitle="title">
                 <BlogPost showItem={6} style={1} showPagination />
             </Layout>
         </>

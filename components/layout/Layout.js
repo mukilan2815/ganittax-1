@@ -65,25 +65,9 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
             }
         })
     }, [])
-    return (
+    return ( 
         <>
-            {!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />}
             {headerStyle == 10 ? <Header10 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 11 ? <Header11 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 12 ? <Header12 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 13 ? <Header13 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 14 ? <Header14 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 15 ? <Header15 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 16 ? <Header16 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 17 ? <Header17 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 18 ? <Header18 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 19 ? <Header19 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 20 ? <Header20 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 21 ? <Header21 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 22 ? <Header22 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 23 ? <Header23 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 24 ? <Header24 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 25 ? <Header25 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
             <MobileMenu  isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu}/>
 
 
@@ -91,21 +75,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
 
             {children}
 
-            {!footerStyle && < Footer1 />}
-            {footerStyle == 1 ? < Footer1 /> : null}
-            {footerStyle == 2 ? < Footer2 /> : null}
-            {footerStyle == 3 ? < Footer3 /> : null}
-            {footerStyle == 4 ? < Footer4 /> : null}
-            {footerStyle == 5 ? < Footer5 /> : null}
-            {footerStyle == 6 ? < Footer6 /> : null}
-            {footerStyle == 7 ? < Footer7 /> : null}
-            {footerStyle == 8 ? < Footer8 /> : null}
-            {footerStyle == 9 ? < Footer9 /> : null}
             {footerStyle == 10 ? < Footer10 /> : null}
-            {footerStyle == 11 ? < Footer11 /> : null}
-            {footerStyle == 12 ? < Footer12 /> : null}
-            {footerStyle == 13 ? < Footer13 /> : null}
-
             <BackToTop />
         </>
     )

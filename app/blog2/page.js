@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog Grid 2">
+            <Layout headerStyle={10} footerStyle={10} breadcrumbTitle="Blog Grid 2">
                     <div className="cloginner-3-sevtion-area section-padding5">
                         <div className="container">
                             <div className="row align-items-center">

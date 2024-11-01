@@ -23,7 +23,7 @@ export default function Home() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Business Growth Plan">
+            <Layout headerStyle={10} footerStyle={10} breadcrumbTitle="Business Growth Plan">
                 <div>
                     <div className="serviceleft-section-area section-padding5">
                         <div className="container">

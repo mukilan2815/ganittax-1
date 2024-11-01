@@ -23,7 +23,7 @@ export default function Home() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Team Details">
+            <Layout headerStyle={10} footerStyle={10} breadcrumbTitle="Team Details">
                 <div>
                     <div className="team-details-sectionarea section-padding5">
                         <div className="container">

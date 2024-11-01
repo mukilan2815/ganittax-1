@@ -17,7 +17,7 @@ export default function BlogDetails() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog Middle">
+            <Layout headerStyle={10} footerStyle={10} breadcrumbTitle="Blog Middle">
                 {blogPost && (
                     <>
 

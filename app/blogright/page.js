@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog Right">
+            <Layout headerStyle={10} footerStyle={10} breadcrumbTitle="Blog Right">
                 <div className="blogleft-section-area section-padding5">
                     <div className="container">
                         <div className="row">

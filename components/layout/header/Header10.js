@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Header10({ scroll, isMobileMenu, handleMobileMenu }) {
     return (
-        <>
+        <> 
             <header className="header about-bg d-none d-lg-block">
                 <div className={`header-area header header-sticky ${scroll ? "sticky" : ""}`} id="header">
                     <div className="container">
@@ -16,7 +16,7 @@ export default function Header10({ scroll, isMobileMenu, handleMobileMenu }) {
                                         <ul>
                                             <li><Link href="/" className="font-ks font-16 weight-500 color">Home</Link></li>
                                             
-                                            <li><Link href="/" className="font-ks font-16 weight-500 color">About Us</Link></li>
+                                            <li><Link href="/about" className="font-ks font-16 weight-500 color">About Us</Link></li>
                                             
                                             <li><Link href="#" className="font-ks font-16 weight-500 color">Individual Taxes <span><i className="fa-solid fa-angle-down" /></span></Link>
                                                 <ul className="dropdown-padding">
@@ -47,12 +47,12 @@ export default function Header10({ scroll, isMobileMenu, handleMobileMenu }) {
                                             </li>
                                             
                                             <li><Link href="/referrals" className="font-ks font-16 weight-500 color">Referrals</Link></li>
-                                            <li><Link href="/" className="font-ks font-16 weight-500 color">Contact Us</Link></li>
+                                            <li><Link href="/contact1" className="font-ks font-16 weight-500 color">Contact Us</Link></li>
                                         </ul>
                                     </div>
                                     <div className="contact-3 d-lg-block d-none">
                                         <div className="shecdule-btn1">
-                                            <Link href="/" className="font-ks font-16 lineh-16 color weight-700 solutions10">Login / Signup
+                                            <Link href="/login" className="font-ks font-16 lineh-16 color weight-700 solutions10">Login / Signup
                                                  <span><img src="/assets/images/icons/arrowben.svg" alt="" /></span></Link>
                                         </div>
                                     </div>

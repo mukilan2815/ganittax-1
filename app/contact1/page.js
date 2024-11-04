@@ -34,7 +34,7 @@ export default function Home() {
                                             Us</span>
                                         <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20 clienth2">Contact Us for
                                             Expert Tax Services</h1>
-                                        <p className="font-ks font-16 weight-500 lineh-26 color-30">
+                                        <p className="font-ks font-16 weight-500 lineh-26 color-30"  style={{ textAlign:"justify" }}>
                                             At Ganit Tax Inc, we pride ourselves on delivering excellence in tax services, providing
                                             professional advice and guidance to help clients navigate their tax obligations.
                                         </p>
@@ -62,7 +62,7 @@ export default function Home() {
                                     <div className="contact5-main-section">
                                         <div className="contact-main-text">
                                             <h1 className="font-lora font-24 lineh-24 weight-600 color">Send us a Message</h1>
-                                            <p className="font-ks font-16 lineh-26 weight-500 color margin-t">
+                                            <p className="font-ks font-16 lineh-26 weight-500 color margin-t"  style={{ textAlign:"justify" }}>
                                                 As your trusted partner in comprehensive tax services, we look forward to assisting you with your needs.
                                             </p>
                                         </div>
@@ -138,7 +138,7 @@ export default function Home() {
                                                         </h2>
                                                         <div id="collapseOne" className={isActive.key == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                             <div className="accordion-body">
-                                                                <p className="font-ks font-16 lineh-26 weight-500 color-22">We offer a range of services including tax preparation, bookkeeping, payroll management, tax consulting, and ITIN assistance. Our aim is to help businesses and individuals navigate their financial responsibilities efficiently.</p>
+                                                                <p className="font-ks font-16 lineh-26 weight-500 color-22"  style={{ textAlign:"justify" }}>We offer a range of services including tax preparation, bookkeeping, payroll management, tax consulting, and ITIN assistance. Our aim is to help businesses and individuals navigate their financial responsibilities efficiently.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -150,7 +150,7 @@ export default function Home() {
                                                         </h2>
                                                         <div id="collapseTwo" className={isActive.key == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                             <div className="accordion-body">
-                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30">Our tax preparation process begins with a thorough review of your financial documents. We then ensure compliance with IRS regulations while maximizing your potential deductions and credits to optimize your tax outcomes.</p>
+                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30"  style={{ textAlign:"justify" }}>Our tax preparation process begins with a thorough review of your financial documents. We then ensure compliance with IRS regulations while maximizing your potential deductions and credits to optimize your tax outcomes.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -162,7 +162,7 @@ export default function Home() {
                                                         </h2>
                                                         <div id="collapseThree" className={isActive.key == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                             <div className="accordion-body">
-                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30">We specialize in providing services to various industries including small businesses, freelancers, and individuals. Our expertise allows us to address the unique financial challenges faced by different sectors.</p>
+                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30"  style={{ textAlign:"justify" }}>We specialize in providing services to various industries including small businesses, freelancers, and individuals. Our expertise allows us to address the unique financial challenges faced by different sectors.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -174,7 +174,7 @@ export default function Home() {
                                                         </h2>
                                                         <div id="collapseFour" className={isActive.key == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                             <div className="accordion-body">
-                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30">Our commitment to client-centric solutions, integrity, and continuous improvement sets us apart. We prioritize understanding your unique needs and delivering tailored strategies for your financial success.</p>
+                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30"  style={{ textAlign:"justify" }}>Our commitment to client-centric solutions, integrity, and continuous improvement sets us apart. We prioritize understanding your unique needs and delivering tailored strategies for your financial success.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -190,7 +190,7 @@ export default function Home() {
                                                                 </h2>
                                                                 <div id="collapseFive" className={isActive.key == 5 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                                     <div className="accordion-body">
-                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-22">During an initial consultation, we will discuss your financial situation, understand your goals, and outline how our services can assist you. This meeting is an opportunity to ask questions and clarify any concerns.</p>
+                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-22"  style={{ textAlign:"justify" }}>During an initial consultation, we will discuss your financial situation, understand your goals, and outline how our services can assist you. This meeting is an opportunity to ask questions and clarify any concerns.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -202,7 +202,7 @@ export default function Home() {
                                                                 </h2>
                                                                 <div id="collapseSix" className={isActive.key == 6 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                                     <div className="accordion-body">
-                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30">We stay updated with the latest tax laws and regulations. Our team conducts thorough reviews and audits of your financial records to ensure compliance and avoid any potential issues with tax authorities.</p>
+                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30"  style={{ textAlign:"justify" }}>We stay updated with the latest tax laws and regulations. Our team conducts thorough reviews and audits of your financial records to ensure compliance and avoid any potential issues with tax authorities.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -214,7 +214,7 @@ export default function Home() {
                                                                 </h2>
                                                                 <div id="collapseSeven" className={isActive.key == 7 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                                     <div className="accordion-body">
-                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30">Yes, our team can assist with crisis management by providing expert advice and support during challenging financial situations. We help you navigate through tough times and develop strategies for recovery and resilience.</p>
+                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30"  style={{ textAlign:"justify" }}>Yes, our team can assist with crisis management by providing expert advice and support during challenging financial situations. We help you navigate through tough times and develop strategies for recovery and resilience.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -226,7 +226,7 @@ export default function Home() {
                                                                 </h2>
                                                                 <div id="collapseEight" className={isActive.key == 8 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                                     <div className="accordion-body">
-                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30">We leverage data and analytics to inform our strategies and recommendations. By analyzing financial data, we can identify trends, opportunities, and areas for improvement, enabling us to provide data-driven solutions for your business.</p>
+                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30"  style={{ textAlign:"justify" }}>We leverage data and analytics to inform our strategies and recommendations. By analyzing financial data, we can identify trends, opportunities, and areas for improvement, enabling us to provide data-driven solutions for your business.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -249,7 +249,7 @@ export default function Home() {
                                 <div className="col-lg-6">
                                     <div className="cta10-header">
                                         <h1 className="font-44 font-lora lineh-52 weight-600 color margin-b">Get expert tax advice and consultation for your financial success.</h1>
-                                        <p className="font-16 font-ks lineh-26 weight-500 color-21">We believe that informed clients make better financial decisions. As part of our service, we offer educational resources and personalized consultations to guide you through the complexities of taxation and financial planning.</p>
+                                        <p className="font-16 font-ks lineh-26 weight-500 color-21"  style={{ textAlign:"justify" }}>We believe that informed clients make better financial decisions. As part of our service, we offer educational resources and personalized consultations to guide you through the complexities of taxation and financial planning.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-1" />

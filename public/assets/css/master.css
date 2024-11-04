@@ -12300,7 +12300,7 @@ img.elementor-1 {
 
 .icon-social-links ul li a:hover {
   color: #343e53;
-  background: #fff;
+  background: #fff; 
   transition: all 0.4s ease-in-out;
 }
 .about-5-links ul li a {
@@ -12825,3 +12825,4 @@ a.solutions2 span i {
   transition: all 0.4s ease-in-out;
 }
 /* other section css */
+

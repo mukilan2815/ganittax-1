@@ -1152,7 +1152,7 @@ textarea::placeholder {}
     .keyframe3 {
         position: relative;
         animation-name: animation-3;
-        animation-duration: 50s;
+        animation-duration: 80s;
         animation-iteration-count: alternate;
         animation-direction: infinite;
     }

@@ -42,7 +42,7 @@ const OtherCompliance = () => {
                       <div className="approach-area margin-t32">
                         <div className="approach-img">
                           <img
-                            src="/assets/images/icons/regulatory-research.svg"
+                            src="https://cdn-icons-png.flaticon.com/512/11421/11421910.png"
                             alt="Regulatory Research"
                             className="approahimages ts"
                           />
@@ -65,7 +65,7 @@ const OtherCompliance = () => {
                       <div className="approach-area margin-t32">
                         <div className="approach-img">
                           <img
-                            src="/assets/images/icons/compliance-audit.svg"
+                            src="https://cdn-icons-png.flaticon.com/512/5572/5572129.png"
                             alt="Compliance Audit"
                             className="approahimages ts"
                           />

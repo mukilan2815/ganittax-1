@@ -17,7 +17,7 @@ export default function Home() {
                 <div className="col-lg-10">
                   <div className="serviceauthior-area p-0">
                     <img
-                      src="https://via.placeholder.com/800x400"
+                      src="https://www.valuestax.com/image/VImages/19.jpg"
                       alt="Amendment Filing"
                     />
                     <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">

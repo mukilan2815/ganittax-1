@@ -15,10 +15,6 @@ const BOIRFiling = () => {
             <div className="row">
               <div className="col-lg-8">
                 <div className="serviceauthior-area p-0">
-                  <img
-                    src="/assets/images/sectionimg/boirfiling.png"
-                    alt="Beneficial Owner Information Report Filing"
-                  />
                   <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">
                     Streamline Your Beneficial Owner Information Report Filing
                   </h1>
@@ -42,7 +38,7 @@ const BOIRFiling = () => {
                       <div className="approach-area margin-t32">
                         <div className="approach-img">
                           <img
-                            src="/assets/images/icons/information-gathering.svg"
+                            src="https://cdn-icons-png.flaticon.com/512/9506/9506329.png"
                             alt="Information Gathering"
                             className="approahimages ts"
                           />
@@ -65,7 +61,7 @@ const BOIRFiling = () => {
                       <div className="approach-area margin-t32">
                         <div className="approach-img">
                           <img
-                            src="/assets/images/icons/report-preparation.svg"
+                            src="https://cdn-icons-png.flaticon.com/512/1469/1469988.png"
                             alt="Report Preparation"
                             className="approahimages ts"
                           />
@@ -234,7 +230,7 @@ const BOIRFiling = () => {
                     className="font-16 weight-700 color fon-ks lineh-16"
                   >
                     <img src="/assets/images/icons/phone9.svg" alt="" />
-                    +91 705 2101 786
+                    +1 (678) 648-6333
                   </Link>
                 </div>
               </div>

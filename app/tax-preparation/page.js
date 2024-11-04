@@ -17,7 +17,7 @@ export default function Home() {
                 <div className="col-lg-10">
                   <div className="serviceauthior-area p-0">
                     <img
-                      src="/assets/images/sectionimg/taxpreparationimg1.png"
+                      src="https://www.debt.org/wp-content/uploads/2020/06/shutterstock_1407725720-1.jpg"
                       alt="Tax Preparation"
                     />
                     <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">
@@ -142,115 +142,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="faq-section-area section-padding8">
-            <img
-              src="/assets/images/elementor/taxpreparationfaq.png"
-              alt="Tax Preparation FAQ"
-              className="elementor24"
-            />
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-7 m-auto">
-                  <div className="faq-textarea margin-b60 text-center">
-                    <h1 className="font-lora font-48 lineh-52 color-29 weight-600 margin-b">
-                      Common Questions About Tax Preparation
-                    </h1>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-4">
-                  <div className="single-portfolio singlecase">
-                    <div className="portfolio-images singleportfolio">
-                      <img
-                        src="/assets/images/sectionimg/taxprep1.png"
-                        alt="Accuracy Guaranteed"
-                      />
-                    </div>
-                    <div className="portfolio-textarea">
-                      <h1 className="font-24 weight-600 font-outfit lineh-24 color-17 margin-b14">
-                        <Link href="/casemiddle" className="color-17">
-                          Accuracy Guaranteed
-                        </Link>
-                      </h1>
-                      <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                        Our experts ensure accuracy and compliance with every
-                        filing.
-                      </p>
-                      <Link
-                        href="/casemiddle"
-                        className="font-16 font-outfit weight-700 color lineh-26 ts text-uppercase margin-t30 d-inline-block learn-more1 learn-more"
-                      >
-                        LEARN MORE{" "}
-                        <span>
-                          <i className="fa-solid fa-arrow-right-long" />
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="single-portfolio singlecase">
-                    <div className="portfolio-images singleportfolio">
-                      <img
-                        src="/assets/images/sectionimg/taxprep2.png"
-                        alt="Timely Submission"
-                      />
-                    </div>
-                    <div className="portfolio-textarea">
-                      <h1 className="font-24 weight-600 font-outfit lineh-24 color-17 margin-b14">
-                        <Link href="/casemiddle" className="color-17">
-                          Timely Submission
-                        </Link>
-                      </h1>
-                      <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                        We handle all deadlines to ensure your filings are on
-                        time.
-                      </p>
-                      <Link
-                        href="/casemiddle"
-                        className="font-16 font-outfit weight-700 color lineh-26 ts text-uppercase margin-t30 d-inline-block learn-more1 learn-more"
-                      >
-                        LEARN MORE{" "}
-                        <span>
-                          <i className="fa-solid fa-arrow-right-long" />
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="single-portfolio singlecase">
-                    <div className="portfolio-images singleportfolio">
-                      <img
-                        src="/assets/images/sectionimg/taxprep3.png"
-                        alt="Audit Support"
-                      />
-                    </div>
-                    <div className="portfolio-textarea">
-                      <h1 className="font-24 weight-600 font-outfit lineh-24 color-17 margin-b14">
-                        <Link href="/casemiddle" className="color-17">
-                          Audit Support
-                        </Link>
-                      </h1>
-                      <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                        Get professional support in case of an audit or inquiry.
-                      </p>
-                      <Link
-                        href="/casemiddle"
-                        className="font-16 font-outfit weight-700 color lineh-26 ts text-uppercase margin-t30 d-inline-block learn-more1 learn-more"
-                      >
-                        LEARN MORE{" "}
-                        <span>
-                          <i className="fa-solid fa-arrow-right-long" />
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        
         </div>
       </Layout>
     </>

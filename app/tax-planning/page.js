@@ -13,7 +13,7 @@ export default function Home() {
                 <div className="col-lg-10">
                   <div className="serviceauthior-area p-0">
                     <img
-                      src="/assets/images/sectionimg/taxplanningimg1.png"
+                      src="https://assets.upstox.com/content/assets/images/cms/2024216/Tax%20Planning.jfif"
                       alt="Tax Planning"
                     />
                     <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">
@@ -202,132 +202,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="faq-section-area section-padding8">
-            <img
-              src="/assets/images/elementor/taxplanningfaq.png"
-              alt="Tax Planning FAQ"
-              className="elementor24"
-            />
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-7 m-auto">
-                  <div className="faq-textarea margin-b60 text-center">
-                    <h1 className="font-lora font-48 lineh-52 color-29 weight-600 margin-b">
-                      Learn More About Our Tax Planning
-                    </h1>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-4">
-                  <div className="single-portfolio singlecase">
-                    <div className="portfolio-images singleportfolio">
-                      <img
-                        src="/assets/images/sectionimg/taxstrategy1.png"
-                        alt="Tax Strategy"
-                      />
-                    </div>
-                    <div className="portfolio-textarea">
-                      <h1 className="font-24 weight-600 font-outfit lineh-24 color-17 margin-b14">
-                        <Link href="/casemiddle" className="color-17">
-                          Tax Strategy
-                        </Link>
-                      </h1>
-                      <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                        Optimize your tax obligations with a customized tax
-                        strategy.
-                      </p>
-                      <div className="portfolio-visible-textarea margin-t">
-                        <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                          We work with you to implement tailored solutions that
-                          minimize liabilities.
-                        </p>
-                        <Link
-                          href="/casemiddle"
-                          className="font-16 font-outfit weight-700 color lineh-26 ts text-uppercase margin-t30 d-inline-block learn-more1 learn-more"
-                        >
-                          LEARN MORE{" "}
-                          <span>
-                            <i className="fa-solid fa-arrow-right-long" />
-                          </span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="single-portfolio singlecase">
-                    <div className="portfolio-images singleportfolio">
-                      <img
-                        src="/assets/images/sectionimg/taxplanning2.png"
-                        alt="Compliance & Savings"
-                      />
-                    </div>
-                    <div className="portfolio-textarea">
-                      <h1 className="font-24 weight-600 font-outfit lineh-24 color-17 margin-b14">
-                        <Link href="/casemiddle" className="color-17">
-                          Compliance & Savings
-                        </Link>
-                      </h1>
-                      <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                        Stay compliant while maximizing tax savings.
-                      </p>
-                      <div className="portfolio-visible-textarea margin-t">
-                        <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                          We help ensure regulatory compliance while leveraging
-                          tax-saving opportunities.
-                        </p>
-                        <Link
-                          href="/casemiddle"
-                          className="font-16 font-outfit weight-700 color lineh-26 ts text-uppercase margin-t30 d-inline-block learn-more1 learn-more"
-                        >
-                          LEARN MORE{" "}
-                          <span>
-                            <i className="fa-solid fa-arrow-right-long" />
-                          </span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="single-portfolio singlecase">
-                    <div className="portfolio-images singleportfolio">
-                      <img
-                        src="/assets/images/sectionimg/taxadvice3.png"
-                        alt="Advisory Services"
-                      />
-                    </div>
-                    <div className="portfolio-textarea">
-                      <h1 className="font-24 weight-600 font-outfit lineh-24 color-17 margin-b14">
-                        <Link href="/casemiddle" className="color-17">
-                          Advisory Services
-                        </Link>
-                      </h1>
-                      <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                        Expert advice for tax optimization.
-                      </p>
-                      <div className="portfolio-visible-textarea margin-t">
-                        <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                          Gain insights on maximizing your financial standing
-                          with effective tax planning.
-                        </p>
-                        <Link
-                          href="/casemiddle"
-                          className="font-16 font-outfit weight-700 color lineh-26 ts text-uppercase margin-t30 d-inline-block learn-more1 learn-more"
-                        >
-                          LEARN MORE{" "}
-                          <span>
-                            <i className="fa-solid fa-arrow-right-long" />
-                          </span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </Layout>
     </>

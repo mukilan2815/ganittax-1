@@ -15,10 +15,6 @@ const BusinessTaxPrep = () => {
             <div className="row">
               <div className="col-lg-8">
                 <div className="serviceauthior-area p-0">
-                  <img
-                    src="/assets/images/sectionimg/businesstaxprep.png"
-                    alt="Business Tax Preparation"
-                  />
                   <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">
                     Simplify Your Business Tax Preparation
                   </h1>
@@ -42,7 +38,7 @@ const BusinessTaxPrep = () => {
                       <div className="approach-area margin-t32">
                         <div className="approach-img">
                           <img
-                            src="/assets/images/icons/document-collection.svg"
+                            src="https://cdn-icons-png.flaticon.com/256/35/35920.png"
                             alt="Document Collection"
                             className="approahimages ts"
                           />
@@ -66,7 +62,7 @@ const BusinessTaxPrep = () => {
                       <div className="approach-area margin-t32">
                         <div className="approach-img">
                           <img
-                            src="/assets/images/icons/tax-filing.svg"
+                            src="https://cdn-icons-png.flaticon.com/512/3190/3190526.png"
                             alt="Tax Filing"
                             className="approahimages ts"
                           />
@@ -232,11 +228,11 @@ const BusinessTaxPrep = () => {
                     Need Help? Contact Us
                   </h1>
                   <Link
-                    href="/tel:+917052101786"
+                    href="/tel:+1 (678) 648-6333"
                     className="font-16 weight-700 color fon-ks lineh-16"
                   >
                     <img src="/assets/images/icons/phone9.svg" alt="" />
-                    +91 705 2101 786
+                    +1 (678) 648-6333
                   </Link>
                 </div>
               </div>

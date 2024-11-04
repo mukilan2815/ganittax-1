@@ -56,7 +56,7 @@ export default function Home() {
                       </li>
                     </ul>
                     <Link
-                      href="/about"
+                      href="/contact1"
                       className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32"
                     >
                       Learn More{" "}
@@ -83,25 +83,25 @@ export default function Home() {
                 <div className="col-lg-6">
                   <div className="lawprovide-textarea">
                     <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">
-                      Our Team Provide Customer Centric Advice to Corporations
+                      GanitTax: Your Partner in Comprehensive Tax Solutions
                     </h1>
                     <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
-                      Business Law Consulting: Detailed information about your
-                      business law services, including entity formation,
-                      contracts, mergers, acquisitions, and more. ntellectual
-                      Property.
+                      At GanitTax, we offer a wide range of services including
+                      bookkeeping, payroll management, tax filing, and
+                      preparation. Our goal is to help businesses navigate their
+                      financial obligations with ease and confidence.
                     </p>
                     <p className="font-ks font-16 weight-500 lineh-26 color-30">
-                      Our team of seasoned legal professionals brings a wealth
-                      of experience across various practice areas. You can trust
-                      us to provide accurate, up-to-date, and effective legal
-                      advice.
+                      Our dedicated team of tax professionals is committed to
+                      providing accurate, reliable, and up-to-date tax advice
+                      tailored to your specific needs. Trust us to optimize your
+                      tax strategies and ensure compliance.
                     </p>
                     <Link
                       href="/team"
                       className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32"
                     >
-                      Meet Our Attorneys
+                      Meet Our Team
                       <span>
                         <i className="fa-solid fa-arrow-right" />
                       </span>
@@ -120,12 +120,13 @@ export default function Home() {
                     <div className="lax-conultingprovide">
                       <Link href="/servicemiddle" className="color-29">
                         <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">
-                          Personal Legal Guidance
+                          Bookkeeping Services
                         </h1>
                       </Link>
                       <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">
-                        The first and most crucial step is understanding your
-                        unique financial aspirations and challenges.
+                        Accurate bookkeeping is essential for your business. We
+                        help you maintain organized financial records to keep
+                        your operations running smoothly.
                       </p>
                     </div>
                   </div>
@@ -140,12 +141,13 @@ export default function Home() {
                     <div className="lax-conultingprovide">
                       <Link href="/servicemiddle" className="color-29">
                         <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">
-                          Business Strategy Consulting
+                          Payroll Management
                         </h1>
                       </Link>
                       <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">
-                        The first and most crucial step is understanding your
-                        unique financial aspirations and challenges.
+                        Let us handle your payroll processing. We ensure timely
+                        and accurate payroll, compliance with tax regulations,
+                        and peace of mind for your business.
                       </p>
                     </div>
                   </div>
@@ -160,12 +162,13 @@ export default function Home() {
                     <div className="lax-conultingprovide">
                       <Link href="/servicemiddle" className="color-29">
                         <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">
-                          Litigation Support
+                          Tax Filing & Preparation
                         </h1>
                       </Link>
                       <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">
-                        The first and most crucial step is understanding your
-                        unique financial aspirations and challenges.
+                        Our tax experts are here to assist you with all your tax
+                        filing and preparation needs, ensuring compliance and
+                        maximizing your tax benefits.
                       </p>
                     </div>
                   </div>
@@ -178,6 +181,7 @@ export default function Home() {
               className="elementor25"
             />
           </div>
+
           {/*===== LAW PROVIDE END=======*/}
           {/*===== MISSION STARTS=======*/}
           <div className="mission-area-starts section-padding5">
@@ -203,16 +207,15 @@ export default function Home() {
                       Our Mission
                     </h1>
                     <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b">
-                      Business Consulting: Detailed information about your
-                      business law services, including entity formation,
-                      contracts, mergers, acquisitions, and more. ntellectual
-                      Property.
+                      At GanitTax, our mission is to provide exceptional tax and
+                      financial services that empower our clients to achieve
+                      their financial goals. We focus on bookkeeping, payroll,
+                      and tax filing to streamline your business operations.
                     </p>
                     <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b">
-                      We are dedicated to achieving favorable results for our
-                      clients. Whether it's a business deal, personal matter, or
-                      legal dispute, we strive for excellence in all aspects of
-                      our work.
+                      We are committed to delivering accurate and timely
+                      solutions, ensuring compliance, and providing peace of
+                      mind in all financial matters.
                     </p>
                     <ul>
                       <li className="font-ks font-16 lineh-16 weight-600 color-17 margin-b20">
@@ -225,19 +228,19 @@ export default function Home() {
                         <span>
                           <img src="/assets/images/icons/check1.png" alt="" />
                         </span>
-                        Flexible, Value Driven Approach
+                        Tailored Financial Strategies to Meet Your Needs
                       </li>
                       <li className="font-ks font-16 lineh-16 weight-600 color-17 margin-b20">
                         <span>
                           <img src="/assets/images/icons/check1.png" alt="" />
                         </span>
-                        Warning of updated legal risks for customers
+                        Proactive Tax Planning and Compliance
                       </li>
                       <li className="font-ks font-16 lineh-16 weight-600 color-17">
                         <span>
                           <img src="/assets/images/icons/check1.png" alt="" />
                         </span>
-                        A team of experienced and highly specialized
+                        A team of dedicated and experienced tax professionals
                       </li>
                     </ul>
                     <Link
@@ -254,6 +257,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+
           {/*===== MISSION END=======*/}
           {/*===== VISSION STARTS=======*/}
           <div className="vission-section-area section-padding5">
@@ -267,13 +271,13 @@ export default function Home() {
                 <div className="col-lg-6">
                   <div className="vission-textarea">
                     <h1 className="font-48 lineh-56 font-lora weight-600 color-29 margin-b20">
-                      The First Choice For Your Problem
+                      The First Choice For Your Financial Needs
                     </h1>
                     <p className="font-16 lineh-26 weight-500 color-30 margin-b24">
-                      We understand that every case is unique. That's why we
-                      take the time to listen to your concerns and tailor our
-                      services to your specific situation, ensuring the best
-                      possible outcomes.
+                      At GanitTax, we strive to be your trusted partner in
+                      navigating the complexities of finance and taxation. Our
+                      dedicated team is here to listen to your unique concerns
+                      and offer tailored solutions that help you succeed.
                     </p>
                     <div className="border7 margin-b20" />
                     <div className="nav-section-area">
@@ -293,7 +297,7 @@ export default function Home() {
                             aria-controls="pills-home"
                             aria-selected="true"
                           >
-                            Our Vission
+                            Our Vision
                           </button>
                         </li>
                         <li className="nav-item" role="presentation">
@@ -335,20 +339,20 @@ export default function Home() {
                         >
                           <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
                             <span className="weight-700 color-29">
-                              Personalized Approach:
+                              Client-Focused Approach:
                             </span>{" "}
-                            We understand that every case unique. That's why we
-                            take the time to listen to your concerns and tailor
-                            our services to your specific situation.
+                            Our clients are at the heart of everything we do. We
+                            take the time to understand your needs, ensuring we
+                            provide solutions that truly fit your financial
+                            goals.
                           </p>
                           <p className="font-ks font-16 weight-500 lineh-26 color-30">
                             <span className="weight-700 color-29">
-                              Client-Centric:
+                              Commitment to Excellence:
                             </span>{" "}
-                            Your satisfaction is our priority. We maintain to
-                            open communication, keeping you informed at every
-                            step of the process. Your questions and feedback are
-                            always welcome.
+                            We are dedicated to providing the highest quality of
+                            service, backed by our expertise and commitment to
+                            your financial well-being.
                           </p>
                         </div>
                         <div
@@ -360,20 +364,20 @@ export default function Home() {
                         >
                           <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
                             <span className="weight-700 color-29">
-                              Personalized Approach:
+                              Our Legacy:
                             </span>{" "}
-                            We understand that every case unique. That's why we
-                            take the time to listen to your concerns and tailor
-                            our services to your specific situation.
+                            With years of experience in the industry, we have
+                            built a reputation for reliability and integrity.
+                            Our history is one of growth, innovation, and a
+                            steadfast commitment to our clients.
                           </p>
                           <p className="font-ks font-16 weight-500 lineh-26 color-30">
                             <span className="weight-700 color-29">
-                              Client-Centric:
+                              Milestones:
                             </span>{" "}
-                            Your satisfaction is our priority. We maintain to
-                            open communication, keeping you informed at every
-                            step of the process. Your questions and feedback are
-                            always welcome.
+                            We take pride in our achievements, having helped
+                            numerous clients achieve their financial goals
+                            through personalized service and expert guidance.
                           </p>
                         </div>
                         <div
@@ -385,20 +389,19 @@ export default function Home() {
                         >
                           <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
                             <span className="weight-700 color-29">
-                              Personalized Approach:
+                              Trusted Expertise:
                             </span>{" "}
-                            We understand that every case unique. That's why we
-                            take the time to listen to your concerns and tailor
-                            our services to your specific situation.
+                            Our team consists of highly skilled professionals
+                            who are committed to staying updated with the latest
+                            industry trends and regulations.
                           </p>
                           <p className="font-ks font-16 weight-500 lineh-26 color-30">
                             <span className="weight-700 color-29">
-                              Client-Centric:
+                              Comprehensive Support:
                             </span>{" "}
-                            Your satisfaction is our priority. We maintain to
-                            open communication, keeping you informed at every
-                            step of the process. Your questions and feedback are
-                            always welcome.
+                            We provide a full range of services to meet your
+                            financial needs, ensuring you have the support you
+                            require to succeed.
                           </p>
                         </div>
                       </div>
@@ -435,6 +438,7 @@ export default function Home() {
               className="elementor25"
             />
           </div>
+
           {/*===== VISSION END=======*/}
           {/*===== TEAM STARTS=======*/}
           <div className="team1-section-area section-padding8">
@@ -443,10 +447,10 @@ export default function Home() {
                 <div className="col-lg-12">
                   <div className="team-section-textarea text-center margin-b60">
                     <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">
-                      Our Expert Attorneys
+                      Our Expert 
                     </span>
                     <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20 clienth2">
-                      Meet Our Expert Law <br /> Consulting Team
+                      Meet Our Expert Tax <br /> Filing Team
                     </h1>
                   </div>
                 </div>

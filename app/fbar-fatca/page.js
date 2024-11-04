@@ -17,7 +17,7 @@ export default function Home() {
                 <div className="col-lg-10">
                   <div className="serviceauthior-area p-0">
                     <img
-                      src="https://via.placeholder.com/800x400"
+                      src="https://dhruvtax.com/images/admin_images/38405f3a6a4c8d6b47d2cb4383ea28a9783c10de-fbar-facts-processing.jpg"
                       alt="FBAR FATCA Filing"
                     />
                     <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">
@@ -135,116 +135,6 @@ export default function Home() {
                           </ul>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="faq-section-area section-padding8">
-            <img
-              src="https://via.placeholder.com/1200x400"
-              alt="FBAR FATCA FAQ"
-              className="elementor24"
-            />
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-7 m-auto">
-                  <div className="faq-textarea margin-b60 text-center">
-                    <h1 className="font-lora font-48 lineh-52 color-29 weight-600 margin-b">
-                      Frequently Asked Questions about FBAR & FATCA
-                    </h1>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-4">
-                  <div className="single-portfolio singlecase">
-                    <div className="portfolio-images singleportfolio">
-                      <img
-                        src="https://via.placeholder.com/400"
-                        alt="Compliance Requirements"
-                      />
-                    </div>
-                    <div className="portfolio-textarea">
-                      <h1 className="font-24 weight-600 font-outfit lineh-24 color-17 margin-b14">
-                        <Link href="/casemiddle" className="color-17">
-                          Compliance Requirements
-                        </Link>
-                      </h1>
-                      <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                        Understand the reporting thresholds and criteria for
-                        compliance.
-                      </p>
-                      <Link
-                        href="/casemiddle"
-                        className="font-16 font-outfit weight-700 color lineh-26 ts text-uppercase margin-t30 d-inline-block learn-more1 learn-more"
-                      >
-                        LEARN MORE{" "}
-                        <span>
-                          <i className="fa-solid fa-arrow-right-long" />
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="single-portfolio singlecase">
-                    <div className="portfolio-images singleportfolio">
-                      <img
-                        src="https://via.placeholder.com/400"
-                        alt="Penalty Avoidance"
-                      />
-                    </div>
-                    <div className="portfolio-textarea">
-                      <h1 className="font-24 weight-600 font-outfit lineh-24 color-17 margin-b14">
-                        <Link href="/casemiddle" className="color-17">
-                          Penalty Avoidance
-                        </Link>
-                      </h1>
-                      <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                        Avoid costly penalties by meeting filing deadlines and
-                        accuracy standards.
-                      </p>
-                      <Link
-                        href="/casemiddle"
-                        className="font-16 font-outfit weight-700 color lineh-26 ts text-uppercase margin-t30 d-inline-block learn-more1 learn-more"
-                      >
-                        LEARN MORE{" "}
-                        <span>
-                          <i className="fa-solid fa-arrow-right-long" />
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="single-portfolio singlecase">
-                    <div className="portfolio-images singleportfolio">
-                      <img
-                        src="https://via.placeholder.com/400"
-                        alt="Expert Assistance"
-                      />
-                    </div>
-                    <div className="portfolio-textarea">
-                      <h1 className="font-24 weight-600 font-outfit lineh-24 color-17 margin-b14">
-                        <Link href="/casemiddle" className="color-17">
-                          Expert Assistance
-                        </Link>
-                      </h1>
-                      <p className="font-outfit weight-400 color-17 lineh-26 font-16">
-                        Receive guidance from specialists in international tax
-                        compliance.
-                      </p>
-                      <Link
-                        href="/casemiddle"
-                        className="font-16 font-outfit weight-700 color lineh-26 ts text-uppercase margin-t30 d-inline-block learn-more1 learn-more"
-                      >
-                        LEARN MORE{" "}
-                        <span>
-                          <i className="fa-solid fa-arrow-right-long" />
-                        </span>
-                      </Link>
                     </div>
                   </div>
                 </div>

@@ -15,10 +15,6 @@ const Page = () => {
             <div className="row">
               <div className="col-lg-8">
                 <div className="serviceauthior-area p-0">
-                  <img
-                    src="/assets/images/sectionimg/servicedeailsimg2.png"
-                    alt=""
-                  />
                   <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">
                     Ensure Compliance with Confidence
                   </h1>
@@ -49,7 +45,7 @@ const Page = () => {
                       <div className="approach-area margin-t32">
                         <div className="approach-img">
                           <img
-                            src="/assets/images/icons/stragig2.svg"
+                            src="https://cdn-icons-png.freepik.com/256/8293/8293447.png?semt=ais_hybrid"
                             alt=""
                             className="approahimages ts"
                           />
@@ -73,7 +69,7 @@ const Page = () => {
                       <div className="approach-area margin-t32">
                         <div className="approach-img">
                           <img
-                            src="/assets/images/icons/approach2.svg"
+                            src="https://cdn-icons-png.flaticon.com/512/10204/10204246.png"
                             alt=""
                             className="approahimages ts"
                           />
@@ -239,11 +235,11 @@ const Page = () => {
                     Need Help? Contact Us
                   </h1>
                   <Link
-                    href="/tel:+917052101786"
+                    href="/tel:+1 (678) 648-6333"
                     className="font-16 weight-700 color fon-ks lineh-16"
                   >
                     <img src="/assets/images/icons/phone9.svg" alt="" />
-                    +91 705 2101 786
+                    +1 (678) 648-6333
                   </Link>
                 </div>
               </div>

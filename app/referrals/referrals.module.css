@@ -1,0 +1,298 @@
+.referralPage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+  background-color: #0b111f;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.mainContent {
+  display: grid;
+  gap: 30px;
+}
+
+.heroBanner {
+  background-color: #E5B80B;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.heroBanner h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.heroImage {
+  max-width: 10%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.referralOffers {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.offerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.offerCard {
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.offerCard h3 {
+  color: #0b111f;
+  margin-bottom: 10px;
+}
+
+.offerCard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.offerCard li {
+  margin-bottom: 5px;
+}
+
+.referralStats {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.statCard {
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.statNumber {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #E5B80B;
+}
+
+.statTarget {
+  font-size: 0.9em;
+  color: #333333;
+  margin-top: 5px;
+}
+
+.progressBar {
+  height: 10px;
+  background-color: #E5B80B;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.currentDiscount {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.discountAmount {
+  font-size: 3em;
+  font-weight: bold;
+  color: #E5B80B;
+}
+
+.referralLink {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.link {
+  font-size: 1.2em;
+  color: #0b111f;
+  background-color: #f0f4f8;
+  padding: 10px 20px;
+  border-radius: 5px;
+  word-break: break-all;
+}
+
+.copyButton {
+  background-color: #E5B80B;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copyButton:hover {
+  background-color: #c62d09;
+}
+
+.howItWorks {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.step {
+  text-align: center;
+  flex-basis: 22%;
+  margin-bottom: 20px;
+}
+
+.stepNumber {
+  background-color: #E5B80B;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
+  font-weight: bold;
+}
+
+.referralTips {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.referralTips ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.referralTips li {
+  margin-bottom: 10px;
+}
+
+.ctaBanner {
+  background-color: #0b111f;
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ctaButton {
+  display: inline-block;
+  background-color: #E5B80B;
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #c62d09;
+}
+
+.popup, .offerPopup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  border: 2px solid #E5B80B;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popup h3, .offerPopup h3 {
+  color: #0b111f;
+  margin-bottom: 10px;
+}
+
+.popup p, .offerPopup p {
+  margin-bottom: 15px;
+}
+
+.closeButton {
+  background-color: #E5B80B;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .statsGrid, .offerGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .steps {
+    flex-direction: column;
+  }
+
+  .step {
+    flex-basis: 100%;
+  }
+
+  .linkContainer {
+    flex-direction: column;
+  }
+
+  .link {
+    font-size: 1em;
+    word-break: break-all;
+  }
+}

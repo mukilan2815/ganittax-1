@@ -167,16 +167,11 @@ export default function ReferralsPage() {
             <ul>
               <li>Personalize your message when sharing your referral link</li>
               <li>Highlight the benefits of using TaxEase for tax filing</li>
-              <li>
-                Follow up with your referrals to answer any questions they might
-                have
-              </li>
-              <li>
-                Share your positive experiences with TaxEase to encourage
-                sign-ups
-              </li>
+              <li>Follow up with your referrals to answer any questions they might have</li>
+              <li>Share your positive experiences with TaxEase to encourage sign-ups</li>
             </ul>
           </section>
+
 
           <section className={styles.ctaBanner}>
             <h2>Ready to Start Saving?</h2>

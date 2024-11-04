@@ -2673,7 +2673,7 @@ img.header9 {
 }
 .welcome10-section-area {
   position: relative;
-  height: 100vh; /* Full height for each section */
+  height: 90vh; /* Full height for each section */
   padding: 170px 0 110px;
   background-size: cover;
   background-position: center;
@@ -2690,8 +2690,8 @@ img.header9 {
   width: 100%;
   left: 0;
   top: 0;
-  background: #2a2b29; /* Dark overlay */
-  opacity: 0.7; /* Adjust opacity as needed */
+  background: #2c2c2b; /* Dark overlay */
+  opacity: 0.9; /* Adjust opacity as needed */
   z-index: 0; /* Ensure overlay is below the content */
 }
 

@@ -25,7 +25,7 @@ export default function Home() {
 
             <Layout headerStyle={10} footerStyle={10} breadcrumbTitle="Contact Us">
                 <div>
-                    <div className="cotactinner-section-area section-padding5">
+                    <div className="contactinner-section-area section-padding5">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
@@ -33,17 +33,18 @@ export default function Home() {
                                         <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Contact
                                             Us</span>
                                         <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20 clienth2">Contact Us for
-                                            Expert Legal Guidance</h1>
-                                        <p className="font-ks font-16 weight-500 lineh-26 color-30">Provide professional advice and guidance
-                                            on legal matters, helping clients understand their rights, obligations, and potential
-                                            courses.</p>
+                                            Expert Tax Services</h1>
+                                        <p className="font-ks font-16 weight-500 lineh-26 color-30">
+                                            At Ganit Tax Inc, we pride ourselves on delivering excellence in tax services, providing
+                                            professional advice and guidance to help clients navigate their tax obligations.
+                                        </p>
                                         <div className="phone7-textarea margin-t32 contactinnerbg">
                                             <div className="phone7-icon">
                                                 <img src="/assets/images/icons/phone8.png" alt="" />
                                             </div>
                                             <div className="phone7-text">
-                                                <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Gives us a Call</p>
-                                                <Link href="/tel:123-456-7890" className="font-lora font-24 weight-700 lineh-24 color-29">123-456-7890</Link>
+                                                <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Give us a Call</p>
+                                                <Link href="tel:+12384567894" className="font-lora font-24 weight-700 lineh-24 color-29">+1 (238) 456 7894</Link>
                                             </div>
                                         </div>
                                         <div className="phone7-textarea margin-t contactinnerbg">
@@ -51,8 +52,8 @@ export default function Home() {
                                                 <img src="/assets/images/icons/email7.png" alt="" />
                                             </div>
                                             <div className="phone7-text">
-                                                <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Send me Mail</p>
-                                                <Link href="/mailto:Consult@hotmail.com" className="font-lora font-24 weight-700 lineh-24 color-29">Consult@hotmail.com</Link>
+                                                <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Send us an Email</p>
+                                                <Link href="mailto:support@ganittax.com" className="font-lora font-24 weight-700 lineh-24 color-29">support@ganittax.com</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -61,9 +62,9 @@ export default function Home() {
                                     <div className="contact5-main-section">
                                         <div className="contact-main-text">
                                             <h1 className="font-lora font-24 lineh-24 weight-600 color">Send us a Message</h1>
-                                            <p className="font-ks font-16 lineh-26 weight-500 color margin-t">As a fellow small business
-                                                owner, we know the fulfillment that an a comes from running your own business contact to
-                                                Financy.</p>
+                                            <p className="font-ks font-16 lineh-26 weight-500 color margin-t">
+                                                As your trusted partner in comprehensive tax services, we look forward to assisting you with your needs.
+                                            </p>
                                         </div>
                                         <div className="contac5-input5area">
                                             <div className="row">
@@ -97,7 +98,9 @@ export default function Home() {
                                                         <textarea cols={30} rows={10} placeholder="Message" />
                                                     </div>
                                                     <div className="contact5-btn5">
-                                                        <button className="font-ks font-16 lineh-16 weight-700 color margin-t32 contcat5" type="submit">Submit Now <span><i className="fa-solid fa-arrow-right" /></span></button>
+                                                        <button className="font-ks font-16 lineh-16 weight-700 color margin-t32 contcat5" type="submit">
+                                                            Submit Now <span><i className="fa-solid fa-arrow-right" /></span>
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -107,7 +110,8 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    {/*===== CONTACT  END=======*/}
+                    {/*===== CONTACT END =======*/}
+
                     {/*===== FAQ STARTS=======*/}
                     <div className="faq-section-area section-padding5">
                         <img src="/assets/images/elementor/elementor23.png" alt="" className="elementor24" />
@@ -129,30 +133,24 @@ export default function Home() {
                                                     <div className="accordion-item bordernone">
                                                         <h2 className="accordion-header" onClick={() => handleClick(1)}>
                                                             <button className={isActive.key == 1 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                                What types of consulting services do you offer?
+                                                                What types of services does Ganit Tax Inc offer?
                                                             </button>
                                                         </h2>
                                                         <div id="collapseOne" className={isActive.key == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                             <div className="accordion-body">
-                                                                <p className="font-ks font-16 lineh-26 weight-500 color-22 ">Our consulting
-                                                                    process involves four key steps: Discovery, Strategy,
-                                                                    Implementation, and Sustainment. We start by understanding your
-                                                                    challenges and goals, then craft a customized strategy.</p>
+                                                                <p className="font-ks font-16 lineh-26 weight-500 color-22">We offer a range of services including tax preparation, bookkeeping, payroll management, tax consulting, and ITIN assistance. Our aim is to help businesses and individuals navigate their financial responsibilities efficiently.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="accordion-item bordernone">
                                                         <h2 className="accordion-header" onClick={() => handleClick(2)}>
                                                             <button className={isActive.key == 2 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                                How does your consulting process work?
+                                                                How does the tax preparation process work?
                                                             </button>
                                                         </h2>
                                                         <div id="collapseTwo" className={isActive.key == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                             <div className="accordion-body">
-                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30 ">Our consulting
-                                                                    process involves four key steps: Discovery, Strategy,
-                                                                    Implementation, and Sustainment. We start by understanding your
-                                                                    challenges and goals, then craft a customized strategy.</p>
+                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30">Our tax preparation process begins with a thorough review of your financial documents. We then ensure compliance with IRS regulations while maximizing your potential deductions and credits to optimize your tax outcomes.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -164,25 +162,19 @@ export default function Home() {
                                                         </h2>
                                                         <div id="collapseThree" className={isActive.key == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                             <div className="accordion-body">
-                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30 ">Our consulting
-                                                                    process involves four key steps: Discovery, Strategy,
-                                                                    Implementation, and Sustainment. We start by understanding your
-                                                                    challenges and goals, then craft a customized strategy.</p>
+                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30">We specialize in providing services to various industries including small businesses, freelancers, and individuals. Our expertise allows us to address the unique financial challenges faced by different sectors.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="accordion-item m-0 bordernone">
                                                         <h2 className="accordion-header" onClick={() => handleClick(4)}>
                                                             <button className={isActive.key == 4 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                                What sets your consulting firm apart from others?
+                                                                What sets Ganit Tax Inc apart from other firms?
                                                             </button>
                                                         </h2>
                                                         <div id="collapseFour" className={isActive.key == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                             <div className="accordion-body">
-                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30 ">Our consulting
-                                                                    process involves four key steps: Discovery, Strategy,
-                                                                    Implementation, and Sustainment. We start by understanding your
-                                                                    challenges and goals, then craft a customized strategy.</p>
+                                                                <p className="font-ks font-16 lineh-26 weight-500 color-30">Our commitment to client-centric solutions, integrity, and continuous improvement sets us apart. We prioritize understanding your unique needs and delivering tailored strategies for your financial success.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -198,59 +190,43 @@ export default function Home() {
                                                                 </h2>
                                                                 <div id="collapseFive" className={isActive.key == 5 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                                     <div className="accordion-body">
-                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-22 ">Yes, we
-                                                                            offer expertise in talent acquisition and team building to
-                                                                            your strategies. We understand that a strong team is
-                                                                            essential for business success and can provide guidance on
-                                                                            hiring the right talent </p>
+                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-22">During an initial consultation, we will discuss your financial situation, understand your goals, and outline how our services can assist you. This meeting is an opportunity to ask questions and clarify any concerns.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div className="accordion-item bordernone">
                                                                 <h2 className="accordion-header" onClick={() => handleClick(6)}>
                                                                     <button className={isActive.key == 6 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                                        What is the first step in your consulting ?
+                                                                        What steps do you take to ensure compliance?
                                                                     </button>
                                                                 </h2>
                                                                 <div id="collapseSix" className={isActive.key == 6 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                                     <div className="accordion-body">
-                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 ">Yes, we
-                                                                            offer expertise in talent acquisition and team building to
-                                                                            your strategies. We understand that a strong team is
-                                                                            essential for business success and can provide guidance on
-                                                                            hiring the right talent </p>
+                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30">We stay updated with the latest tax laws and regulations. Our team conducts thorough reviews and audits of your financial records to ensure compliance and avoid any potential issues with tax authorities.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div className="accordion-item bordernone">
                                                                 <h2 className="accordion-header" onClick={() => handleClick(7)}>
                                                                     <button className={isActive.key == 7 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                                                        Consulting services help with crisis management?
+                                                                        Can your consulting services help with crisis management?
                                                                     </button>
                                                                 </h2>
                                                                 <div id="collapseSeven" className={isActive.key == 7 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                                     <div className="accordion-body">
-                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 ">Yes, we
-                                                                            offer expertise in talent acquisition and team building to
-                                                                            your strategies. We understand that a strong team is
-                                                                            essential for business success and can provide guidance on
-                                                                            hiring the right talent </p>
+                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30">Yes, our team can assist with crisis management by providing expert advice and support during challenging financial situations. We help you navigate through tough times and develop strategies for recovery and resilience.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div className="accordion-item m-0 bordernone">
                                                                 <h2 className="accordion-header" onClick={() => handleClick(8)}>
                                                                     <button className={isActive.key == 8 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                                        Data and analytics play your consulting approach?
+                                                                        How does data and analytics play into your consulting approach?
                                                                     </button>
                                                                 </h2>
                                                                 <div id="collapseEight" className={isActive.key == 8 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample">
                                                                     <div className="accordion-body">
-                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 ">Yes, we
-                                                                            offer expertise in talent acquisition and team building to
-                                                                            your strategies. We understand that a strong team is
-                                                                            essential for business success and can provide guidance on
-                                                                            hiring the right talent </p>
+                                                                        <p className="font-ks font-16 lineh-26 weight-500 color-30">We leverage data and analytics to inform our strategies and recommendations. By analyzing financial data, we can identify trends, opportunities, and areas for improvement, enabling us to provide data-driven solutions for your business.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -267,31 +243,25 @@ export default function Home() {
                     </div>
                     {/*===== FAQ END=======*/}
                     {/*===== CTA STARST=======*/}
-                    <div className="cta5-section-area section-padding4">
-                        <img src="/assets/images/elementor/elementor72.png" alt="" className="elementors72" />
+                    <div className="cta10-section-area section-padding4">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
-                                    <div className="cta5-auhtor6-area">
-                                        <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get expert Law
-                                            advice on criminal strategies</h1>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-21">We believe that informed clients make
-                                            better Law decisions. As part of our service, we'll provide educational resources and
-                                            workshops to help.</p>
+                                    <div className="cta10-header">
+                                        <h1 className="font-44 font-lora lineh-52 weight-600 color margin-b">Get expert tax advice and consultation for your financial success.</h1>
+                                        <p className="font-16 font-ks lineh-26 weight-500 color-21">We believe that informed clients make better financial decisions. As part of our service, we offer educational resources and personalized consultations to guide you through the complexities of taxation and financial planning.</p>
                                     </div>
                                 </div>
-                                <div className="col-lg-2" />
-                                <div className="col-lg-4">
-                                    <div className="cta5-btn5-sexction">
-                                        <Link href="/contact1" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">Get Law Advice
-                                            <span><i className="fa-solid fa-arrow-right" /></span></Link>
-                                        <Link href="/contact2" className="theme6-btn6 backgrnd6 font-ks lineh-16 weight-700 color-29 font-16">Contact Us
-                                            <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                <div className="col-lg-1" />
+                                <div className="col-lg-5">
+                                    <div className="cta10-btnarea">
+                                        <Link href="/contact1" className="font-ks font-16 lineh-16 color weight-700 solutions11">Schedule
+                                            an Apointment <span><img src="/assets/images/icons/arrowgreen.svg" alt="" /></span></Link>
+                                        <Link href="/contact1" className="font-ks font-16 lineh-16 color-h10 weight-700 solutions12">Contact Us <span><img src="/assets/images/icons/arrowgreen.svg" alt="" /></span></Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <img src="/assets/images/elementor/elementor72.png" alt="" className="elementors73" />
                     </div>
                 </div>
 

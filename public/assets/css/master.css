@@ -2673,7 +2673,6 @@ img.header9 {
 }
 .welcome10-section-area {
   position: relative;
-  height: 90vh; /* Full height for each section */
   padding: 170px 0 110px;
   background-size: cover;
   background-position: center;

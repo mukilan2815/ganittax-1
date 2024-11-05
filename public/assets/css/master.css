@@ -252,7 +252,7 @@ FOOTER AREA CSS
   justify-content: space-between;
 }
 .header.header-sticky.sticky {
-  background: #0b111f;
+  background: #004953;
 }
 .quick_contact {
   position: relative;
@@ -2689,7 +2689,7 @@ img.header9 {
   width: 100%;
   left: 0;
   top: 0;
-  background: #2c2c2b; /* Dark overlay */
+  background: #05292b; /* 2c2c2b - Previous Dark overlay */
   opacity: 0.9; /* Adjust opacity as needed */
   z-index: 0; /* Ensure overlay is below the content */
 }
@@ -12279,7 +12279,7 @@ img.elementor-1 {
   left: 0;
 }
 .footer4-section-area {
-  background: var(--main-color, #1d2940);
+  background: var(--main-color, #004B4D);
 }
 .icon-social-links ul li {
   display: inline-block;

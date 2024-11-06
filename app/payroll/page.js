@@ -36,15 +36,6 @@ export default function Home() {
                             We handle the entire payroll process, ensuring
                             timely and accurate employee payments.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -72,15 +63,6 @@ export default function Home() {
                             We ensure compliance with tax regulations, managing
                             all payroll-related taxes for you.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -144,15 +126,6 @@ export default function Home() {
                             Our systems track employee hours and attendance,
                             streamlining the payroll process.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -180,15 +153,6 @@ export default function Home() {
                             We provide detailed payroll reports for better
                             financial analysis and planning.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -216,15 +180,6 @@ export default function Home() {
                             We help ensure your payroll practices are compliant
                             with local and federal regulations.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -252,15 +207,6 @@ export default function Home() {
                             We tailor our payroll services to meet the unique
                             needs of your business.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -288,15 +234,6 @@ export default function Home() {
                             Our experts provide guidance on payroll strategies
                             to enhance efficiency.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">

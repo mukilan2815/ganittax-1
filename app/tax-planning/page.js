@@ -1,7 +1,34 @@
+'use client'
+import { useEffect, useState } from "react";
 import Layout from "@/components/layout/Layout";
-import Link from "next/link";
 
 export default function Home() {
+  const [progress1, setProgress1] = useState(0); // Tax Strategy Development
+  const [progress2, setProgress2] = useState(0); // Regulatory Compliance
+
+  useEffect(() => {
+    const incrementProgress1 = setInterval(() => {
+      if (progress1 < 98) {
+        setProgress1((prev) => prev + 1);
+      } else {
+        clearInterval(incrementProgress1);
+      }
+    }, 30); // Delay between percentage increments
+
+    const incrementProgress2 = setInterval(() => {
+      if (progress2 < 96) {
+        setProgress2((prev) => prev + 1);
+      } else {
+        clearInterval(incrementProgress2);
+      }
+    }, 30); // Delay between percentage increments
+
+    return () => {
+      clearInterval(incrementProgress1);
+      clearInterval(incrementProgress2);
+    };
+  }, [progress1, progress2]);
+
   return (
     <>
       <Layout headerStyle={10} footerStyle={10} breadcrumbTitle="Tax Planning">
@@ -49,35 +76,37 @@ export default function Home() {
                       of Tax Professionals (ITP), giving our clients confidence
                       in our expertise and commitment to excellence.
                     </p>
+                    {/* Progress Bar 1 */}
                     <div className="progress7 margin-b12">
                       <div className="bussibess-plan">
                         <span className="font-16 font-outfit lineh-16 color-17 weight-500 international1">
                           Tax Strategy Development
                         </span>
                         <p className="font-16 font-outfit lineh-16 color-17 weight-500">
-                          98%
+                          {progress1}%
                         </p>
                       </div>
-                      <div
-                        className="progress-wrap3 progress3"
-                        data-progress-percent={98}
-                      >
-                        <div className="progress-bar3 progress3" />
+                      <div className="progress-wrap3">
+                        <div
+                          className="progress-bar3"
+                          style={{ width: `${progress1}%` }}
+                        />
                       </div>
                     </div>
+                    {/* Progress Bar 2 */}
                     <div className="bussibess-plan">
                       <span className="font-16 font-outfit lineh-16 color-17 weight-500 international1">
                         Regulatory Compliance
                       </span>
                       <p className="font-16 font-outfit lineh-16 color-17 weight-500">
-                        96%
+                        {progress2}%
                       </p>
                     </div>
-                    <div
-                      className="progress-wrap3 progress3"
-                      data-progress-percent={96}
-                    >
-                      <div className="progress-bar3 progress3" />
+                    <div className="progress-wrap3">
+                      <div
+                        className="progress-bar3"
+                        style={{ width: `${progress2}%` }}
+                      />
                     </div>
                     <div className="peragraph-pera">
                       <p className="font-ks font-16 lineh-26 weight-500 color-30 ts">
@@ -99,6 +128,7 @@ export default function Home() {
                       offer tailored tax strategies that maximize savings and
                       ensure compliance.
                     </p>
+
                     <div className="row">
                       <div className="col-lg-4">
                         <div className="checkservice-area">
@@ -202,7 +232,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-         
         </div>
       </Layout>
     </>

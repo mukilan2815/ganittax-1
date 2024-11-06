@@ -235,11 +235,11 @@ const Page = () => {
                     Need Help? Contact Us
                   </h1>
                   <Link
-                    href="/tel:+1 (678) 648-6333"
+                    href="/tel:6783889199"
                     className="font-16 weight-700 color fon-ks lineh-16"
                   >
                     <img src="/assets/images/icons/phone9.svg" alt="" />
-                    +1 (678) 648-6333
+                    6783889199
                   </Link>
                 </div>
               </div>

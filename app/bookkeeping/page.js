@@ -36,15 +36,7 @@ export default function Home() {
                             We provide meticulous financial record keeping to
                             ensure your business runs smoothly.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
+                          
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -72,15 +64,7 @@ export default function Home() {
                             Our experts ensure your accounts are reconciled
                             monthly for accuracy.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
+                          
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -144,15 +128,7 @@ export default function Home() {
                             We assist in creating a budget that suits your
                             financial goals.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
+                          
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -180,15 +156,7 @@ export default function Home() {
                             Our team manages your payroll efficiently, ensuring
                             timely payments.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
+                          
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -216,15 +184,7 @@ export default function Home() {
                             We analyze your cash flow to help maintain liquidity
                             in your business.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
+                          
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -252,15 +212,7 @@ export default function Home() {
                             We provide detailed financial reports that give
                             insights into your business performance.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
+                          
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -288,15 +240,7 @@ export default function Home() {
                             Our business consultation services can help
                             streamline your financial processes.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
+                          
                         </div>
                       </div>
                       <div className="col-lg-6">

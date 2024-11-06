@@ -3730,7 +3730,6 @@ button#pills-contact-tab:hover {
 .nav-pills.nav-link.active,
 .nav-pills.show > .nav-link {
   font-weight: 700;
-  text-decoration: underline;
 }
 .nav-link.nav-btn1.active {
   font-weight: 700;
@@ -5010,7 +5009,6 @@ img.approahimages {
   bottom: 0;
   transition: all 0.4s ease-in-out;
   left: 0;
-  text-decoration: underline;
   z-index: 1;
   height: 0;
   background: #071018;

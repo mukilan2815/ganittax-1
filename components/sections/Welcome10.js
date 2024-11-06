@@ -34,7 +34,8 @@ export default function Welcome10() {
                 data-aos-duration={500}
               >
                 <span className="font-ks lineh-16 weight-500 color aboutspan font-16 d-inline-block margin-b24">
-                  Tax Filing Services               </span>
+                  Tax Filing Services{" "}
+                </span>
                 <h1
                   className="font-lora font-48 lineh-54 weight-600 color margin-b24"
                   data-aos="fade-right"
@@ -59,7 +60,7 @@ export default function Welcome10() {
                     href="/contact1"
                     className="font-16 font-ks weight-700 color lineh-16 homepagebtn10 d-inline-block margin-t32 ts"
                   >
-                    Explore Your Insurance{" "}
+                    Schedule a Meeting{" "}
                     <span>
                       <img
                         src="/assets/images/icons/arrowben.svg"

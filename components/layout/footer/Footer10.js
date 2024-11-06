@@ -114,7 +114,7 @@ export default function Footer10() {
                           href="mailto:info@ganittax.com"
                           className="font-16 lineh-24 color32 weight-400 font-ks"
                         >
-                          support@ganittax.com
+                          info@ganittax.com
                         </Link>
                       </div>
                       <span className="location-fooetr ">
@@ -140,7 +140,7 @@ export default function Footer10() {
                           href="tel:123-456-7890"
                           className="font-16 lineh-24 color32 weight-400 font-ks"
                         >
-                          +1 (678) 648-6333
+                          6783889199
                         </Link>
                       </div>
                     </div>

@@ -11,20 +11,27 @@ export default function ReferralsPage() {
   const [referralLink, setReferralLink] = useState("");
   const [showPopup, setShowPopup] = useState(false);
   const [showOfferPopup, setShowOfferPopup] = useState(false);
+  const [isSignedIn, setIsSignedIn] = useState(false);
 
   useEffect(() => {
-    const uniqueId = Math.random().toString(36).substr(2, 6).toUpperCase();
-    setReferralLink(`https://taxease.com/refer/${uniqueId}`);
+    // Check for token in local storage
+    const token = localStorage.getItem("token"); // Replace with your token check logic
+    setIsSignedIn(!!token);
 
-    // Show initial popup after 5 seconds
-    const initialTimer = setTimeout(() => setShowPopup(true), 5000);
-    // Show offer popup after 30 seconds
-    const offerTimer = setTimeout(() => setShowOfferPopup(true), 30000);
+    if (token) {
+      const uniqueId = Math.random().toString(36).substr(2, 6).toUpperCase();
+      setReferralLink(`https://taxease.com/refer/${uniqueId}`);
 
-    return () => {
-      clearTimeout(initialTimer);
-      clearTimeout(offerTimer);
-    };
+      // Show initial popup after 5 seconds
+      const initialTimer = setTimeout(() => setShowPopup(true), 5000);
+      // Show offer popup after 30 seconds
+      const offerTimer = setTimeout(() => setShowOfferPopup(true), 30000);
+
+      return () => {
+        clearTimeout(initialTimer);
+        clearTimeout(offerTimer);
+      };
+    }
   }, []);
 
   useEffect(() => {
@@ -45,147 +52,170 @@ export default function ReferralsPage() {
     <Layout
       headerStyle={10}
       footerStyle={10}
-      breadcrumbTitle="Other Compliance Services"
+      breadcrumbTitle="Referral"
     >
       <div className={styles.referralPage}>
-        <main className={styles.mainContent}>
-          <section className={styles.heroBanner}>
-            <h2>Unlock Exclusive Discounts!</h2>
-            <p>
-              Refer friends and businesses to earn up to 30% off your next tax
-              filing!
-            </p>
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/16820/16820244.png"
-              alt="Referral rewards illustration"
-              className={styles.heroImage}
-            />
-          </section>
+        {!isSignedIn ? (
+          <main className={styles.mainContent}>
+            <section className={styles.heroBanner}>
+              <h2>Please Sign In or Sign Up</h2>
+              <p>
+                Sign in or create an account to access the referral flow and
+                start referring!
+              </p>
+              <Link href="/signin" className={styles.ctaButton}>
+                Sign In / Sign Up
+              </Link>
+            </section>
+          </main>
+        ) : (
+          <main className={styles.mainContent}>
+            <section className={styles.heroBanner}>
+              <h2>Unlock Exclusive Discounts!</h2>
+              <p>
+                Refer friends and businesses to earn up to 30% off your next tax
+                filing!
+              </p>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/16820/16820244.png"
+                alt="Referral rewards illustration"
+                className={styles.heroImage}
+              />
+            </section>
 
-          <section className={styles.referralOffers}>
-            <h2>Our Referral Offers</h2>
-            <div className={styles.offerGrid}>
-              <div className={styles.offerCard}>
-                <h3>Individual Referrals</h3>
-                <ul>
-                  <li>10 referrals = 10% discount</li>
-                  <li>15 referrals = 15% discount</li>
-                </ul>
+            <section className={styles.referralOffers}>
+              <h2>Our Referral Offers</h2>
+              <p>
+                <strong>Earn $10 for each successful referral!</strong>
+              </p>
+              <div className={styles.offerGrid}>
+                <div className={styles.offerCard}>
+                  <h3>Individual Referrals</h3>
+                  <ul>
+                    <li>10 referrals = 10% discount</li>
+                    <li>15 referrals = 15% discount</li>
+                  </ul>
+                </div>
+                <div className={styles.offerCard}>
+                  <h3>Business Referrals</h3>
+                  <ul>
+                    <li>5 referrals = 10% discount</li>
+                    <li>10 referrals = 15% discount</li>
+                  </ul>
+                </div>
               </div>
-              <div className={styles.offerCard}>
-                <h3>Business Referrals</h3>
-                <ul>
-                  <li>5 referrals = 10% discount</li>
-                  <li>10 referrals = 15% discount</li>
-                </ul>
-              </div>
-            </div>
-          </section>
+            </section>
 
-          <section className={styles.referralStats}>
-            <h2>Your Referral Impact</h2>
-            <div className={styles.statsGrid}>
-              <div className={styles.statCard}>
-                <h3>Individual Referrals</h3>
-                <p className={styles.statNumber}>{referrals.individual}</p>
-                <p className={styles.statTarget}>
-                  Next target: {referrals.individual < 10 ? 10 : 15}
-                </p>
-                <div
-                  className={styles.progressBar}
-                  style={{
-                    width: `${Math.min(
-                      (referrals.individual / 15) * 100,
-                      100
-                    )}%`,
-                  }}
-                ></div>
+            <section className={styles.referralStats}>
+              <h2>Your Referral Impact</h2>
+              <div className={styles.statsGrid}>
+                <div className={styles.statCard}>
+                  <h3>Individual Referrals</h3>
+                  <p className={styles.statNumber}>{referrals.individual}</p>
+                  <p className={styles.statTarget}>
+                    Next target: {referrals.individual < 10 ? 10 : 15}
+                  </p>
+                  <div
+                    className={styles.progressBar}
+                    style={{
+                      width: `${Math.min(
+                        (referrals.individual / 15) * 100,
+                        100
+                      )}%`,
+                    }}
+                  ></div>
+                </div>
+                <div className={styles.statCard}>
+                  <h3>Business Referrals</h3>
+                  <p className={styles.statNumber}>{referrals.business}</p>
+                  <p className={styles.statTarget}>
+                    Next target: {referrals.business < 5 ? 5 : 10}
+                  </p>
+                  <div
+                    className={styles.progressBar}
+                    style={{
+                      width: `${Math.min(
+                        (referrals.business / 10) * 100,
+                        100
+                      )}%`,
+                    }}
+                  ></div>
+                </div>
               </div>
-              <div className={styles.statCard}>
-                <h3>Business Referrals</h3>
-                <p className={styles.statNumber}>{referrals.business}</p>
-                <p className={styles.statTarget}>
-                  Next target: {referrals.business < 5 ? 5 : 10}
-                </p>
-                <div
-                  className={styles.progressBar}
-                  style={{
-                    width: `${Math.min((referrals.business / 10) * 100, 100)}%`,
-                  }}
-                ></div>
+              <div className={styles.currentDiscount}>
+                <h3>Your Current Discount</h3>
+                <p className={styles.discountAmount}>{discount}% OFF</p>
               </div>
-            </div>
-            <div className={styles.currentDiscount}>
-              <h3>Your Current Discount</h3>
-              <p className={styles.discountAmount}>{discount}% OFF</p>
-            </div>
-          </section>
+            </section>
 
-          <section className={styles.referralLink}>
-            <h2>Your Unique Referral Link</h2>
-            <div className={styles.linkContainer}>
-              <span className={styles.link}>{referralLink}</span>
-              <button onClick={handleCopyLink} className={styles.copyButton}>
-                Copy Link
-              </button>
-            </div>
-          </section>
+            <section className={styles.referralLink}>
+              <h2>Your Unique Referral Link</h2>
+              <div className={styles.linkContainer}>
+                <span className={styles.link}>{referralLink}</span>
+                <button onClick={handleCopyLink} className={styles.copyButton}>
+                  Copy Link
+                </button>
+              </div>
+            </section>
 
-          <section className={styles.howItWorks}>
-            <h2>How to Refer</h2>
-            <div className={styles.steps}>
-              <div className={styles.step}>
-                <div className={styles.stepNumber}>1</div>
-                <p>Copy your unique referral link above</p>
+            <section className={styles.howItWorks}>
+              <h2>How to Refer</h2>
+              <div className={styles.steps}>
+                <div className={styles.step}>
+                  <div className={styles.stepNumber}>1</div>
+                  <p>Copy your unique referral link above</p>
+                </div>
+                <div className={styles.step}>
+                  <div className={styles.stepNumber}>2</div>
+                  <p>
+                    Share the link with friends, family, or business associates
+                    via email, social media, or messaging apps
+                  </p>
+                </div>
+                <div className={styles.step}>
+                  <div className={styles.stepNumber}>3</div>
+                  <p>
+                    When they click your link and sign up for TaxEase, you'll
+                    automatically get credit for the referral
+                  </p>
+                </div>
+                <div className={styles.step}>
+                  <div className={styles.stepNumber}>4</div>
+                  <p>
+                    Track your referrals and watch your discounts grow in
+                    real-time!
+                  </p>
+                </div>
               </div>
-              <div className={styles.step}>
-                <div className={styles.stepNumber}>2</div>
-                <p>
-                  Share the link with friends, family, or business associates
-                  via email, social media, or messaging apps
-                </p>
-              </div>
-              <div className={styles.step}>
-                <div className={styles.stepNumber}>3</div>
-                <p>
-                  When they click your link and sign up for TaxEase, you'll
-                  automatically get credit for the referral
-                </p>
-              </div>
-              <div className={styles.step}>
-                <div className={styles.stepNumber}>4</div>
-                <p>
-                  Track your referrals and watch your discounts grow in
-                  real-time!
-                </p>
-              </div>
-            </div>
-          </section>
+            </section>
 
-          <section className={styles.referralTips}>
-            <h2>Tips for Successful Referrals</h2>
-            <ul>
-              <li>Personalize your message when sharing your referral link</li>
-              <li>Highlight the benefits of using TaxEase for tax filing</li>
-              <li>
-                Follow up with your referrals to answer any questions they might
-                have
-              </li>
-              <li>
-                Share your positive experiences with TaxEase to encourage
-                sign-ups
-              </li>
-            </ul>
-          </section>
+            <section className={styles.referralTips}>
+              <h2>Tips for Successful Referrals</h2>
+              <ul>
+                <li>
+                  Personalize your message when sharing your referral link
+                </li>
+                <li>Highlight the benefits of using TaxEase for tax filing</li>
+                <li>
+                  Follow up with your referrals to answer any questions they
+                  might have
+                </li>
+                <li>
+                  Share your positive experiences with TaxEase to encourage
+                  sign-ups
+                </li>
+              </ul>
+            </section>
 
-          <section className={styles.ctaBanner}>
-            <h2>Ready to Start Saving?</h2>
-            <p>Share your referral link now and watch your discounts grow!</p>
-            <Link href="/share" className={styles.ctaButton}>
-              Share Your Link
-            </Link>
-          </section>
-        </main>
+            <section className={styles.ctaBanner}>
+              <h2>Ready to Start Saving?</h2>
+              <p>Share your referral link now and watch your discounts grow!</p>
+              <Link href="/share" className={styles.ctaButton}>
+                Share Your Link
+              </Link>
+            </section>
+          </main>
+        )}
 
         {showPopup && (
           <div className={styles.popup}>
@@ -222,3 +252,4 @@ export default function ReferralsPage() {
     </Layout>
   );
 }
+  

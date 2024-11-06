@@ -37,15 +37,6 @@ export default function Home() {
                             We ensure your sales tax is calculated correctly and
                             remitted on time.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -73,15 +64,6 @@ export default function Home() {
                             We help track and report use tax liabilities
                             accurately to avoid penalties.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -109,15 +91,6 @@ export default function Home() {
                             We provide support and guidance during sales tax
                             audits to ensure compliance.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -145,15 +118,6 @@ export default function Home() {
                             Stay updated with the latest sales tax rates
                             applicable to your business.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -181,15 +145,6 @@ export default function Home() {
                             We offer training and support for your team on sales
                             tax compliance best practices.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -217,15 +172,6 @@ export default function Home() {
                             We develop custom tax solutions tailored to your
                             business needs and challenges.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -253,15 +199,6 @@ export default function Home() {
                             Our experts provide strategic consultation on
                             managing sales and use tax effectively.
                           </p>
-                          <Link
-                            href="/servicemiddle"
-                            className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2"
-                          >
-                            Learn More{" "}
-                            <span>
-                              <i className="fa-solid fa-arrow-right" />
-                            </span>
-                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">

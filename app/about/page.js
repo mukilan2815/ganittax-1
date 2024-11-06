@@ -31,7 +31,7 @@ export default function Home() {
                     <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">
                       Welcome to Ganit Tax Inc
                     </h1>
-                    <p className="font-ks font-16 lineh-26 weight-500 color-30">
+                    <p className="font-ks font-16 lineh-26 weight-500 color-30" style={{ textAlign:"justify" }}>
                       At Ganit Tax Inc, we go beyond traditional financial
                       services. We’re dedicated partners in your success,
                       committed to delivering excellence and integrity in US
@@ -41,7 +41,7 @@ export default function Home() {
                     <h2 className="font-lora font-24 lineh-32 weight-600 color-29 margin-b20">
                       Our Values
                     </h2>
-                    <ul className="font-ks font-16 lineh-26 weight-500 color-30">
+                    <ul className="font-ks font-16 lineh-26 weight-500 color-30" style={{ textAlign:"justify" }}>
                       <li>
                         <strong>Client-Centric Approach:</strong> Your needs
                         come first.
@@ -81,17 +81,17 @@ export default function Home() {
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-lg-6">
-                  <div className="lawprovide-textarea">
-                    <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">
+                  <div className="lawprovide-textarea" >
+                    <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20" >
                       GanitTax: Your Partner in Comprehensive Tax Solutions
                     </h1>
-                    <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
+                    <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30" style={{ textAlign:"justify" }}>
                       At GanitTax, we offer a wide range of services including
                       bookkeeping, payroll management, tax filing, and
                       preparation. Our goal is to help businesses navigate their
                       financial obligations with ease and confidence.
                     </p>
-                    <p className="font-ks font-16 weight-500 lineh-26 color-30">
+                    <p className="font-ks font-16 weight-500 lineh-26 color-30" style={{ textAlign:"justify" }}>
                       Our dedicated team of tax professionals is committed to
                       providing accurate, reliable, and up-to-date tax advice
                       tailored to your specific needs. Trust us to optimize your
@@ -115,7 +115,7 @@ export default function Home() {
                           Bookkeeping Services
                         </h1>
                       </Link>
-                      <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">
+                      <p className="font-ks lineh-26 weight-500 color-30 font-16 ts" style={{ textAlign:"justify" }}>
                         Accurate bookkeeping is essential for your business. We
                         help you maintain organized financial records to keep
                         your operations running smoothly.
@@ -136,7 +136,7 @@ export default function Home() {
                           Payroll Management
                         </h1>
                       </Link>
-                      <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">
+                      <p className="font-ks lineh-26 weight-500 color-30 font-16 ts" style={{ textAlign:"justify" }}>
                         Let us handle your payroll processing. We ensure timely
                         and accurate payroll, compliance with tax regulations,
                         and peace of mind for your business.
@@ -157,7 +157,7 @@ export default function Home() {
                           Tax Filing & Preparation
                         </h1>
                       </Link>
-                      <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">
+                      <p className="font-ks lineh-26 weight-500 color-30 font-16 ts" style={{ textAlign:"justify" }}>
                         Our tax experts are here to assist you with all your tax
                         filing and preparation needs, ensuring compliance and
                         maximizing your tax benefits.
@@ -198,13 +198,13 @@ export default function Home() {
                     <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">
                       Our Mission
                     </h1>
-                    <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b">
+                    <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b" style={{ textAlign:"justify" }}>
                       At GanitTax, our mission is to provide exceptional tax and
                       financial services that empower our clients to achieve
                       their financial goals. We focus on bookkeeping, payroll,
                       and tax filing to streamline your business operations.
                     </p>
-                    <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b">
+                    <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b" style={{ textAlign:"justify" }}>
                       We are committed to delivering accurate and timely
                       solutions, ensuring compliance, and providing peace of
                       mind in all financial matters.
@@ -265,7 +265,7 @@ export default function Home() {
                     <h1 className="font-48 lineh-56 font-lora weight-600 color-29 margin-b20">
                       The First Choice For Your Financial Needs
                     </h1>
-                    <p className="font-16 lineh-26 weight-500 color-30 margin-b24">
+                    <p className="font-16 lineh-26 weight-500 color-30 margin-b24" style={{ textAlign:"justify" }}>
                       At GanitTax, we strive to be your trusted partner in
                       navigating the complexities of finance and taxation. Our
                       dedicated team is here to listen to your unique concerns
@@ -329,7 +329,7 @@ export default function Home() {
                           aria-labelledby="pills-home-tab"
                           tabIndex={0}
                         >
-                          <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
+                          <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30" style={{ textAlign:"justify" }}>
                             <span className="weight-700 color-29">
                               Client-Focused Approach:
                             </span>{" "}
@@ -338,7 +338,7 @@ export default function Home() {
                             provide solutions that truly fit your financial
                             goals.
                           </p>
-                          <p className="font-ks font-16 weight-500 lineh-26 color-30">
+                          <p className="font-ks font-16 weight-500 lineh-26 color-30" style={{ textAlign:"justify" }}>
                             <span className="weight-700 color-29">
                               Commitment to Excellence:
                             </span>{" "}
@@ -354,7 +354,7 @@ export default function Home() {
                           aria-labelledby="pills-profile-tab"
                           tabIndex={0}
                         >
-                          <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
+                          <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30" style={{ textAlign:"justify" }}>
                             <span className="weight-700 color-29">
                               Our Legacy:
                             </span>{" "}
@@ -363,7 +363,7 @@ export default function Home() {
                             Our history is one of growth, innovation, and a
                             steadfast commitment to our clients.
                           </p>
-                          <p className="font-ks font-16 weight-500 lineh-26 color-30">
+                          <p className="font-ks font-16 weight-500 lineh-26 color-30" style={{ textAlign:"justify" }}>
                             <span className="weight-700 color-29">
                               Milestones:
                             </span>{" "}
@@ -379,7 +379,7 @@ export default function Home() {
                           aria-labelledby="pills-contact-tab"
                           tabIndex={0}
                         >
-                          <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
+                          <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30" style={{ textAlign:"justify" }}>
                             <span className="weight-700 color-29">
                               Trusted Expertise:
                             </span>{" "}
@@ -387,7 +387,7 @@ export default function Home() {
                             who are committed to staying updated with the latest
                             industry trends and regulations.
                           </p>
-                          <p className="font-ks font-16 weight-500 lineh-26 color-30">
+                          <p className="font-ks font-16 weight-500 lineh-26 color-30" style={{ textAlign:"justify" }}>
                             <span className="weight-700 color-29">
                               Comprehensive Support:
                             </span>{" "}
@@ -443,7 +443,7 @@ export default function Home() {
                       Get expert tax advice and consultation for your financial
                       success.
                     </h1>
-                    <p className="font-16 font-ks lineh-26 weight-500 color-21">
+                    <p className="font-16 font-ks lineh-26 weight-500 color-21" style={{ textAlign:"justify" }}>
                       We believe that informed clients make better financial
                       decisions. As part of our service, we offer educational
                       resources and personalized consultations to guide you

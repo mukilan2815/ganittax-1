@@ -252,7 +252,7 @@ FOOTER AREA CSS
   justify-content: space-between;
 }
 .header.header-sticky.sticky {
-  background: #0b111f;
+  background: #004953;
 }
 .quick_contact {
   position: relative;
@@ -2673,7 +2673,6 @@ img.header9 {
 }
 .welcome10-section-area {
   position: relative;
-  height: 100vh; /* Full height for each section */
   padding: 170px 0 110px;
   background-size: cover;
   background-position: center;
@@ -2690,8 +2689,8 @@ img.header9 {
   width: 100%;
   left: 0;
   top: 0;
-  background: #2a2b29; /* Dark overlay */
-  opacity: 0.7; /* Adjust opacity as needed */
+  background: #05292b; /* 2c2c2b - Previous Dark overlay */
+  opacity: 0.9; /* Adjust opacity as needed */
   z-index: 0; /* Ensure overlay is below the content */
 }
 
@@ -4152,7 +4151,7 @@ span.about10span {
   margin-left: 24px;
 }
 .about10-textarea {
-  padding: 0 0 0 100px;
+  padding: 0 0 0 10px;
 }
 
 .about11-section-area {
@@ -12278,7 +12277,7 @@ img.elementor-1 {
   left: 0;
 }
 .footer4-section-area {
-  background: var(--main-color, #1d2940);
+  background: var(--main-color, #004B4D);
 }
 .icon-social-links ul li {
   display: inline-block;
@@ -12299,7 +12298,7 @@ img.elementor-1 {
 
 .icon-social-links ul li a:hover {
   color: #343e53;
-  background: #fff;
+  background: #fff; 
   transition: all 0.4s ease-in-out;
 }
 .about-5-links ul li a {

@@ -17,7 +17,7 @@ export default function Welcome10() {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [images.length]);
+  }, [images.length]); 
 
   return (
     <>

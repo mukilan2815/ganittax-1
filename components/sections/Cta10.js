@@ -11,7 +11,7 @@ export default function Cta10() {
                         <div className="col-lg-6">
                             <div className="cta10-header">
                                 <h1 className="font-44 font-lora lineh-52 weight-600 color margin-b">Get expert tax advice and consultation for your financial success.</h1>
-                                <p className="font-16 font-ks lineh-26 weight-500 color-21">We believe that informed clients make better financial decisions. As part of our service, we offer educational resources and personalized consultations to guide you through the complexities of taxation and financial planning.</p>
+                                <p className="font-16 font-ks lineh-26 weight-500 color-21" style={{ textAlign:"justify" }}>We believe that informed clients make better financial decisions. As part of our service, we offer educational resources and personalized consultations to guide you through the complexities of taxation and financial planning.</p>
                             </div>
                         </div>
                         <div className="col-lg-1" />

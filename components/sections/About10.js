@@ -32,12 +32,13 @@ export default function About10() {
                 >
                   Your Trusted Partner for Tax & Business Advisory
                 </h1>
-                <p className="font-ks lineh-26 weight-500 color-p10 font-16 margin-b30">
+                <p className="font-ks lineh-26 weight-500 color-p10 font-16 margin-b30" style={{ textAlign:"justify" }}>
                   At Ganit Tax Inc, we offer a full suite of services, including
                   tax preparation, bookkeeping, payroll management, and business
                   consulting. We ensure your financials are in order so you can
                   focus on growing your business with confidence.
                 </p>
+
                 <div className="row">
                   <div
                     className="col-lg-6"
@@ -50,13 +51,13 @@ export default function About10() {
                           <span>
                             <i className="fa-solid fa-check" />
                           </span>{" "}
-                          Tax Preparation & Planning
+                          Tax Preparation
                         </li>
                         <li className="font-16 font-ks weight-600 color-p3 lineh-16">
                           <span>
                             <i className="fa-solid fa-check" />
                           </span>{" "}
-                          Business Consulting Services
+                          Business Consulting
                         </li>
                       </ul>
                     </div>
@@ -72,13 +73,13 @@ export default function About10() {
                           <span>
                             <i className="fa-solid fa-check" />
                           </span>{" "}
-                          Payroll & Accounting Services
+                          Payroll & Accounting
                         </li>
                         <li className="font-16 font-ks weight-600 color-p3 lineh-16 d-inline-block">
                           <span>
                             <i className="fa-solid fa-check" />
                           </span>{" "}
-                          Bookkeeping & Financial Analysis
+                          Bookkeeping & Analysis
                         </li>
                       </ul>
                     </div>

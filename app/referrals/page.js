@@ -67,6 +67,55 @@ export default function ReferralsPage() {
                 Sign In / Sign Up
               </Link>
             </section>
+
+            <section className={styles.howItWorks}>
+              <h2>How to Refer</h2>
+              <div className={styles.steps}>
+                <div className={styles.step}>
+                  <div className={styles.stepNumber}>1</div>
+                  <p>Copy your unique referral link above</p>
+                </div>
+                <div className={styles.step}>
+                  <div className={styles.stepNumber}>2</div>
+                  <p>
+                    Share the link with friends, family, or business associates
+                    via email, social media, or messaging apps
+                  </p>
+                </div>
+                <div className={styles.step}>
+                  <div className={styles.stepNumber}>3</div>
+                  <p>
+                    When they click your link and sign up for TaxEase, you'll
+                    automatically get credit for the referral
+                  </p>
+                </div>
+                <div className={styles.step}>
+                  <div className={styles.stepNumber}>4</div>
+                  <p>
+                    Track your referrals and watch your discounts grow in
+                    real-time!
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section className={styles.referralTips}>
+              <h2>Tips for Successful Referrals</h2>
+              <ul>
+                <li>
+                  Personalize your message when sharing your referral link
+                </li>
+                <li>Highlight the benefits of using TaxEase for tax filing</li>
+                <li>
+                  Follow up with your referrals to answer any questions they
+                  might have
+                </li>
+                <li>
+                  Share your positive experiences with TaxEase to encourage
+                  sign-ups
+                </li>
+              </ul>
+            </section>
           </main>
         ) : (
           <main className={styles.mainContent}>

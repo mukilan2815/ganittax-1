@@ -48,12 +48,12 @@ export default function Home() {
                           Accuracy in Amendments
                         </span>
                         <p className="font-16 font-outfit lineh-16 color-17 weight-500">
-                          98%
+                          100%
                         </p>
                       </div>
                       <div
                         className="progress-wrap3 progress3"
-                        data-progress-percent={98}
+                        data-progress-percent={100}
                       >
                         <div className="progress-bar3 progress3" />
                       </div>
@@ -63,12 +63,12 @@ export default function Home() {
                         Timely Updates
                       </span>
                       <p className="font-16 font-outfit lineh-16 color-17 weight-500">
-                        97%
+                        100%
                       </p>
                     </div>
                     <div
                       className="progress-wrap3 progress3"
-                      data-progress-percent={97}
+                      data-progress-percent={100}
                     >
                       <div className="progress-bar3 progress3" />
                     </div>

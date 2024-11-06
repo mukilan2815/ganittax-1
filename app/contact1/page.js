@@ -1,107 +1,137 @@
-'use client'
-import Layout from "@/components/layout/Layout"
-import Link from "next/link"
-import { useState } from 'react'
+'use client';
+import Layout from "@/components/layout/Layout";
+import Link from "next/link";
+import { useState } from 'react';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+
 export default function Home() {
     const [isActive, setIsActive] = useState({
         status: false,
         key: "",
-    })
+    });
+
+    const [startDate, setStartDate] = useState(null);
+
+    // Filter times to only allow 9 AM to 5 PM
+    const filterTime = (time) => {
+        const selectedHour = time.getHours();
+        return selectedHour >= 9 && selectedHour < 17;
+    };
 
     const handleClick = (key) => {
         if (isActive.key === key) {
             setIsActive({
                 status: false,
-            })
+            });
         } else {
             setIsActive({
                 status: true,
                 key,
-            })
+            });
         }
-    }
+    };
+
     return (
         <>
-
             <Layout headerStyle={10} footerStyle={10} breadcrumbTitle="Contact Us">
-                <div>
-                    <div className="contactinner-section-area section-padding5">
-                        <div className="container">
-                            <div className="row align-items-center">
-                                <div className="col-lg-6">
-                                    <div className="contcat5-textarea5">
-                                        <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Contact
-                                            Us</span>
-                                        <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20 clienth2">Contact Us for
-                                            Expert Tax Services</h1>
-                                        <p className="font-ks font-16 weight-500 lineh-26 color-30"  style={{ textAlign:"justify" }}>
-                                            At Ganit Tax Inc, we pride ourselves on delivering excellence in tax services, providing
-                                            professional advice and guidance to help clients navigate their tax obligations.
-                                        </p>
-                                        <div className="phone7-textarea margin-t32 contactinnerbg">
-                                            <div className="phone7-icon">
-                                                <img src="/assets/images/icons/phone8.png" alt="" />
-                                            </div>
-                                            <div className="phone7-text">
-                                                <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Give us a Call</p>
-                                                <Link href="tel:+12384567894" className="font-lora font-24 weight-700 lineh-24 color-29">+1 (238) 456 7894</Link>
-                                            </div>
+                <div className="contactinner-section-area section-padding5">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div className="contcat5-textarea5">
+                                    <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Contact
+                                        Us</span>
+                                    <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20 clienth2">Contact Us for
+                                        Expert Tax Services</h1>
+                                    <p className="font-ks font-16 weight-500 lineh-26 color-30" style={{ textAlign: "justify" }}>
+                                        At Ganit Tax Inc, we pride ourselves on delivering excellence in tax services, providing
+                                        professional advice and guidance to help clients navigate their tax obligations.
+                                    </p>
+                                    <div className="phone7-textarea margin-t32 contactinnerbg">
+                                        <div className="phone7-icon">
+                                            <img src="/assets/images/icons/phone8.png" alt="" />
                                         </div>
-                                        <div className="phone7-textarea margin-t contactinnerbg">
-                                            <div className="phone7-icon">
-                                                <img src="/assets/images/icons/email7.png" alt="" />
-                                            </div>
-                                            <div className="phone7-text">
-                                                <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Send us an Email</p>
-                                                <Link href="mailto:support@ganittax.com" className="font-lora font-24 weight-700 lineh-24 color-29">support@ganittax.com</Link>
-                                            </div>
+                                        <div className="phone7-text">
+                                            <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Give us a Call</p>
+                                            <Link href="tel:+16783889199" className="font-lora font-24 weight-700 lineh-24 color-29">+1 (678) 388 9199</Link>
+                                        </div>
+                                    </div>
+                                    <div className="phone7-textarea margin-t contactinnerbg">
+                                        <div className="phone7-icon">
+                                            <img src="/assets/images/icons/email7.png" alt="" />
+                                        </div>
+                                        <div className="phone7-text">
+                                            <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Send us an Email</p>
+                                            <Link href="mailto:info@ganittax.com" className="font-lora font-24 weight-700 lineh-24 color-29">info@ganittax.com</Link>
+                                        </div>
+                                    </div>
+                                    <div className="phone7-textarea margin-t contactinnerbg">
+                                        <div className="phone7-icon">
+                                            <img src="/assets/images/icons/service-previewicon.svg" alt="" />
+                                        </div>
+                                        <div className="phone7-text">
+                                            <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Office Hours</p>
+                                            <Link href="mailto:info@ganittax.com" className="font-lora font-24 weight-700 lineh-24 color-29"> EST - 9 to 5pm</Link>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-6">
-                                    <div className="contact5-main-section">
-                                        <div className="contact-main-text">
-                                            <h1 className="font-lora font-24 lineh-24 weight-600 color">Send us a Message</h1>
-                                            <p className="font-ks font-16 lineh-26 weight-500 color margin-t"  style={{ textAlign:"justify" }}>
-                                                As your trusted partner in comprehensive tax services, we look forward to assisting you with your needs.
-                                            </p>
-                                        </div>
-                                        <div className="contac5-input5area">
-                                            <div className="row">
-                                                <div className="col-lg-6">
-                                                    <div className="input-5area margin-t32">
-                                                        <input type="text" placeholder="First Name" />
-                                                    </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="contact5-main-section">
+                                    <div className="contact-main-text">
+                                        <h1 className="font-lora font-24 lineh-24 weight-600 color">Send us a Message</h1>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color margin-t" style={{ textAlign: "justify" }}>
+                                            As your trusted partner in comprehensive tax services, we look forward to assisting you with your needs.
+                                        </p>
+                                    </div>
+                                    <div className="contac5-input5area">
+                                        <div className="row">
+                                            <div className="col-lg-6">
+                                                <div className="input-5area margin-t32">
+                                                    <input type="text" placeholder="First Name" />
                                                 </div>
-                                                <div className="col-lg-6">
-                                                    <div className="input-5area margin-t32">
-                                                        <input type="text" placeholder="Last Name" />
-                                                    </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="input-5area margin-t32">
+                                                    <input type="text" placeholder="Last Name" />
                                                 </div>
-                                                <div className="col-lg-6">
-                                                    <div className="input-5area margin-t">
-                                                        <input type="email" placeholder="Email" />
-                                                    </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="input-5area margin-t">
+                                                    <input type="email" placeholder="Email" />
                                                 </div>
-                                                <div className="col-lg-6">
-                                                    <div className="input-5area margin-t">
-                                                        <input type="number" placeholder="Phone" />
-                                                    </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="input-5area margin-t">
+                                                    <input type="number" placeholder="Phone" />
                                                 </div>
-                                                <div className="col-lg-12">
-                                                    <div className="input-5area margin-t">
-                                                        <input type="text" placeholder="Subject" />
-                                                    </div>
+                                            </div>
+                                            <div className="col-lg-12">
+                                                <div className="input-5area margin-t">
+                                                    <input type="text" placeholder="Subject" />
                                                 </div>
-                                                <div className="col-lg-12">
-                                                    <div className="input-5area margin-t">
-                                                        <textarea cols={30} rows={10} placeholder="Message" />
-                                                    </div>
-                                                    <div className="contact5-btn5">
-                                                        <button className="font-ks font-16 lineh-16 weight-700 color margin-t32 contcat5" type="submit">
-                                                            Submit Now <span><i className="fa-solid fa-arrow-right" /></span>
-                                                        </button>
-                                                    </div>
+                                            </div>
+                                            <div className="col-lg-12">
+                                                <div className="input-5area margin-t">
+                                                    <textarea cols={30} rows={10} placeholder="Message" />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12">
+                                                <div className="input-5area margin-t">
+                                                    <DatePicker
+                                                        selected={startDate}
+                                                        onChange={(date) => setStartDate(date)}
+                                                        showTimeSelect
+                                                        filterTime={filterTime}
+                                                        dateFormat="MMMM d, yyyy h:mm aa"
+                                                        placeholderText="Select date and time"
+                                                    />
+                                                </div>
+                                                <div className="contact5-btn5">
+                                                    <button className="font-ks font-16 lineh-16 weight-700 color margin-t32 contcat5" type="submit">
+                                                        Submit Now <span><i className="fa-solid fa-arrow-right" /></span>
+                                                    </button>
                                                 </div>
                                             </div>
                                         </div>
@@ -110,6 +140,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+
                     {/*===== CONTACT END =======*/}
 
                     {/*===== FAQ STARTS=======*/}

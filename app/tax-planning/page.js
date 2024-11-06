@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     const incrementProgress1 = setInterval(() => {
-      if (progress1 < 98) {
+      if (progress1 < 100) {
         setProgress1((prev) => prev + 1);
       } else {
         clearInterval(incrementProgress1);
@@ -16,7 +16,7 @@ export default function Home() {
     }, 30); // Delay between percentage increments
 
     const incrementProgress2 = setInterval(() => {
-      if (progress2 < 96) {
+      if (progress2 < 100) {
         setProgress2((prev) => prev + 1);
       } else {
         clearInterval(incrementProgress2);

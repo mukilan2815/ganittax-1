@@ -41,7 +41,7 @@ export default function Header10({ scroll, isMobileMenu, handleMobileMenu }) {
 
                       <li>
                         <Link
-                          href="/industries"
+                          href="/industries-we-serve"
                           className="font-ks font-16 weight-500 color"
                         >
                           Industries We Serve
@@ -53,7 +53,7 @@ export default function Header10({ scroll, isMobileMenu, handleMobileMenu }) {
                           href="#"
                           className="font-ks font-16 weight-500 color"
                         >
-                          Services{" "}
+                          What we do{" "}
                           <span>
                             <i className="fa-solid fa-angle-down" />
                           </span>
@@ -166,43 +166,42 @@ export default function Header10({ scroll, isMobileMenu, handleMobileMenu }) {
                               </li>
                             </ul>
                           </li>
-                        </ul>
-                      </li>
-
-                      <li>
-                        <Link
-                          href="#"
-                          className="font-ks font-16 weight-500 color"
-                        >
-                          Other Services{" "}
-                          <span>
-                            <i className="fa-solid fa-angle-down" />
-                          </span>
-                        </Link>
-                        <ul className="dropdown-padding">
                           <li>
                             <Link
-                              href="/bookkeeping"
+                              href="#"
                               className="font-ks font-16 weight-500 color"
                             >
-                              Bookkeeping
+                              Other Services{" "}
+                              <span>
+                                <i className="fa-solid fa-angle-right" />
+                              </span>
                             </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="/payroll"
-                              className="font-ks font-16 weight-500 color"
-                            >
-                              Payroll
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="/sales-tax"
-                              className="font-ks font-16 weight-500 color"
-                            >
-                              Sales Tax/Use Tax
-                            </Link>
+                            <ul className="dropdown-padding">
+                              <li>
+                                <Link
+                                  href="/bookkeeping"
+                                  className="font-ks font-16 weight-500 color"
+                                >
+                                  Bookkeeping
+                                </Link>
+                              </li>
+                              <li>
+                                <Link
+                                  href="/payroll"
+                                  className="font-ks font-16 weight-500 color"
+                                >
+                                  Payroll
+                                </Link>
+                              </li>
+                              <li>
+                                <Link
+                                  href="/sales-tax"
+                                  className="font-ks font-16 weight-500 color"
+                                >
+                                  Sales Tax/Use Tax
+                                </Link>
+                              </li>
+                            </ul>
                           </li>
                         </ul>
                       </li>

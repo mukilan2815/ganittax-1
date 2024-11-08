@@ -66,7 +66,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
             </li>
             <li>
               <Link
-                href="/industries"
+                href="/industries-we-serve"
                 className="font-ks font-16 weight-500 color"
               >
                 Industries We Serve
@@ -84,7 +84,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                 <em />
               </span>
               <Link href="#" className="font-ks font-16 weight-500 color">
-                Services
+                What we do
               </Link>
               <ul
                 className="sub-menu"
@@ -184,49 +184,36 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                     </li>
                   </ul>
                 </li>
-              </ul>
-            </li>
-            <li className="has-sub hash-has-sub">
-              <span
-                className={
-                  isActive.key === 2
-                    ? "submenu-button submenu-opened"
-                    : "submenu-button"
-                }
-                onClick={() => handleToggle(2)}
-              >
-                <em />
-              </span>
-              <Link href="#" className="font-ks font-16 weight-500 color">
-                Other Services
-              </Link>
-              <ul
-                className="sub-menu"
-                style={{ display: `${isActive.key === 2 ? "block" : "none"}` }}
-              >
                 <li>
-                  <Link
-                    href="/bookkeeping"
-                    className="font-ks font-16 weight-500 color"
-                  >
-                    Bookkeeping
+                  <Link href="#" className="font-ks font-16 weight-500 color">
+                    Other Services
                   </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/payroll"
-                    className="font-ks font-16 weight-500 color"
-                  >
-                    Payroll
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/sales-tax"
-                    className="font-ks font-16 weight-500 color"
-                  >
-                    Sales Tax/Use Tax
-                  </Link>
+                  <ul>
+                    <li>
+                      <Link
+                        href="/bookkeeping"
+                        className="font-ks font-16 weight-500 color"
+                      >
+                        Bookkeeping
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/payroll"
+                        className="font-ks font-16 weight-500 color"
+                      >
+                        Payroll
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/sales-tax"
+                        className="font-ks font-16 weight-500 color"
+                      >
+                        Sales Tax/Use Tax
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </li>

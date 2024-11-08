@@ -7,6 +7,8 @@ import "/public/assets/css/plugins/swiper.bundle.css"
 import "/public/assets/icon/font-awesome/css/all.css"
 // import "/public/assets/css/plugins/owl.carousel.min.css"
 import "/public/assets/css/plugins/modal-video.min.css"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "/public/assets/css/plugins/mobile.css"
 import "/public/assets/css/plugins/aos.css"
 import "/public/assets/css/typography.css"

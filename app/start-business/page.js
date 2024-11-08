@@ -8,6 +8,16 @@ export default function Home() {
     key: "",
   });
 
+  const [showBanner, setShowBanner] = useState(true); // New state for banner
+
+  const closeBanner = () => {
+    setShowBanner(false);
+  };
+
+  const handleBannerClick = () => {
+    window.location.href = "https://ganittax.com/contact1"; // Redirect link
+  };
+
   const handleClick = (key) => {
     if (isActive.key === key) {
       setIsActive({
@@ -27,6 +37,26 @@ export default function Home() {
         footerStyle={10}
         breadcrumbTitle="Start your Business"
       >
+        {" "}
+        {showBanner && (
+          <div className="popup-banner">
+            <div className="banner-content">
+              <img
+                src="/assets/images/banner.jpg" // Your banner image path
+                alt="Promotional Banner"
+                onClick={handleBannerClick}
+                style={{
+                  cursor: "pointer",
+                  height: "80vh",
+                  objectFit: "cover",
+                }}
+              />
+              <button onClick={closeBanner} className="close-banner">
+                X
+              </button>
+            </div>
+          </div>
+        )}
         <div>
           <div className="serviceleft-section-area section-padding5">
             <div className="container">
@@ -258,6 +288,35 @@ export default function Home() {
           </div>
         </div>
       </Layout>
+      <style jsx>{`
+        .popup-banner {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.5);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 1000;
+        }
+        .banner-content {
+          position: relative;
+          max-width: 90%;
+          max-height: 90%;
+        }
+        .close-banner {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background: none;
+          border: none;
+          color: white;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      `}</style>
     </>
   );
 }

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useEffect, useState } from "react";
 import Layout from "@/components/layout/Layout";
 
@@ -13,7 +13,7 @@ export default function Home() {
       } else {
         clearInterval(incrementProgress1);
       }
-    }, 30); // Delay between percentage increments
+    }, 30);
 
     const incrementProgress2 = setInterval(() => {
       if (progress2 < 100) {
@@ -21,7 +21,7 @@ export default function Home() {
       } else {
         clearInterval(incrementProgress2);
       }
-    }, 30); // Delay between percentage increments
+    }, 30);
 
     return () => {
       clearInterval(incrementProgress1);
